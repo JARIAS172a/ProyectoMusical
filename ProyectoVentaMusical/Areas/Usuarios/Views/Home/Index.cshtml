@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Models.Data.Usuario>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<h1>Lista de Usuarios</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre de Usuario</th>
+            <th>Correo Electronico</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.NombreCompleto</td>
+                <td>@usuario.CorreoElectronico</td>
+                <td>
+                    <!-- Opcional: Botones de acción -->
+                    <a href="@Url.Action("Details", "Usuario", new { id = usuario.IdUsuario })" class="btn btn-primary btn-sm">Detalles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

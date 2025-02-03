@@ -1,0 +1,22 @@
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\bin\Debug\net8.0\Utilidades.deps.json
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\bin\Debug\net8.0\Utilidades.dll
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\bin\Debug\net8.0\Utilidades.pdb
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfoInputs.cache
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfo.cs
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.csproj.CoreCompileInputs.cache
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.dll
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\refint\Utilidades.dll
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.pdb
+C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\ref\Utilidades.dll
+D:\Desktop\ProyectoVentaMusical\Utilidades\bin\Debug\net8.0\Utilidades.deps.json
+D:\Desktop\ProyectoVentaMusical\Utilidades\bin\Debug\net8.0\Utilidades.dll
+D:\Desktop\ProyectoVentaMusical\Utilidades\bin\Debug\net8.0\Utilidades.pdb
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfoInputs.cache
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfo.cs
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.csproj.CoreCompileInputs.cache
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.dll
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\refint\Utilidades.dll
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.pdb
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\ref\Utilidades.dll
