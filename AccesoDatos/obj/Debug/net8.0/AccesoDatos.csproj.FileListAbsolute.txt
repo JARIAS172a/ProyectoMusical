@@ -36,3 +36,4 @@ D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.genruntimeconfig.cache
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
+D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json

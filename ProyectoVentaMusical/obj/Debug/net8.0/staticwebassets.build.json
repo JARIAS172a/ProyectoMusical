@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yRvhZco0xPmr70qWM195Tdol3ij5xrFjxwJ3TqIduaA=",
+  "Hash": "VYxXcAXLygSTa4KCiz6nSJ8AA4tiSU4VlkS4zDA01eU=",
   "Source": "ProyectoVentaMusical",
   "BasePath": "_content/ProyectoVentaMusical",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
+      "SourceId": "ProyectoVentaMusical",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "BasePath": "_content/ProyectoVentaMusical",
+      "RelativePath": "js/artistas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\artistas.js"
     },
     {
       "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\site.js",

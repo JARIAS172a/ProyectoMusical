@@ -546,3 +546,4 @@ D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\refint\Pro
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.pdb
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.genruntimeconfig.cache
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ref\ProyectoVentaMusical.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.sourcelink.json
