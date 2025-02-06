@@ -1,5 +1,4 @@
 ﻿var dataTable;
-
 $(document).ready(function () {
     cargarDatatable();
 });
@@ -19,7 +18,18 @@ function cargarDatatable() {
             { "data": "nombreReal", "width": "15%" },
             { "data": "nacionalidad", "width": "15%" },
             {
-                "data": "CodigoArtista",
+                "data": "fotoArtista",
+                "render": function (imagen) {
+                    if (imagen) {
+                        // Reemplaza las barras invertidas por normales y quita el ../
+                        const rutaImagen = imagen.replace(/\\/g, "/");
+                        return `<img src="${rutaImagen}" width="120px">`;
+                    }
+                    return "Sin imagen";
+                }
+            },
+            {
+                "data": "codigoArtista",
                 "render": function (data) {
                     return `<div class="text-center">
                                 <a href="/Admin/Artistas/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
@@ -58,6 +68,8 @@ function cargarDatatable() {
     });
 }
 
+
+
 function Delete(url) {
     swal({
         title: "Esta seguro de borrar?",
@@ -83,3 +95,4 @@ function Delete(url) {
         });
     });
 }
+

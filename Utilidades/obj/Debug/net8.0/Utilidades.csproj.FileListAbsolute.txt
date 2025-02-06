@@ -20,3 +20,4 @@ D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.dll
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\refint\Utilidades.dll
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.pdb
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\ref\Utilidades.dll
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.sourcelink.json

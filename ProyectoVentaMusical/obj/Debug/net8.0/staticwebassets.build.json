@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VYxXcAXLygSTa4KCiz6nSJ8AA4tiSU4VlkS4zDA01eU=",
+  "Hash": "8YGj6fLD9f0noGOZYWNz5Dmu7ogiJPpfaw4i+q1ET4Q=",
   "Source": "ProyectoVentaMusical",
   "BasePath": "_content/ProyectoVentaMusical",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg",
+      "SourceId": "ProyectoVentaMusical",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "BasePath": "_content/ProyectoVentaMusical",
+      "RelativePath": "imagenes/artistas/f9d57212-3320-403b-ad73-ec8aa8350f27.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg"
     },
     {
       "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",

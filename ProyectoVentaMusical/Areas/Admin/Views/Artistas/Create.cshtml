@@ -8,7 +8,7 @@
 <br />
 <br />
 <h3 class="text-center">Crear un nuevo artista</h3>
-<form method="POST" asp-action="Create">
+<form method="POST" asp-action="Create" enctype="multipart/form-data">
     <div class="row px-2 offset-1 border">
         <div asp-validation-summary="All" class="text-danger"></div>
 
@@ -53,6 +53,17 @@
                 <div class="col-8">
                     <input asp-for="Nacionalidad" class="form-control" placeholder="Debe digitar la nacionalidad" />
                     <span asp-validation-for="Nacionalidad" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FotoArtista"></label>
+                </div>
+                <div class="col-8">
+                    <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
+                    <span asp-validation-for="FotoArtista" class="text-danger"></span>
                 </div>
             </div>
 

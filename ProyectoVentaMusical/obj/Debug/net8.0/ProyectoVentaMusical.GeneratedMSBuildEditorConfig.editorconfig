@@ -26,8 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Desktop/ProyectoVentaMusical/ProyectoVentaMusical/Areas/Admin/Views/albumes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcYWxidW1lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Desktop/ProyectoVentaMusical/ProyectoVentaMusical/Areas/Admin/Views/albumes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcYWxidW1lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Desktop/ProyectoVentaMusical/ProyectoVentaMusical/Areas/Admin/Views/albumes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcYWxidW1lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Desktop/ProyectoVentaMusical/ProyectoVentaMusical/Areas/Admin/Views/Artistas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Desktop/ProyectoVentaMusical/ProyectoVentaMusical/Areas/Admin/Views/Artistas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aXN0YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Desktop/ProyectoVentaMusical/ProyectoVentaMusical/Areas/Admin/Views/Artistas/Index.cshtml]

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\artistas\\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg"
+    },
+    {
       "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
       "PackagePath": "staticwebassets\\js\\artistas.js"
     },

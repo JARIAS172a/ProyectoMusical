@@ -22,6 +22,8 @@
     <Folder Include="Areas\Conta\Models\" />
     <Folder Include="Areas\Usuarios\Models\" />
     <Folder Include="Models\" />
+    <Folder Include="wwwroot\imagenes\artistas\" />
+    <Folder Include="wwwroot\imagenes\albumes\" />
   </ItemGroup>
 
   <ItemGroup>

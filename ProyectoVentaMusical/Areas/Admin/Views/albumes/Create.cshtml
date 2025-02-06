@@ -1,0 +1,92 @@
+﻿@model Models.Data.Albumes
+
+@{
+    // Aqui solo le da el nombre a la pesta;a de arriba del navegador
+    ViewData["Title"] = "Crear Albumes";
+}
+
+<br />
+<br />
+<h3 class="text-center">Crear un nuevo artista</h3>
+<form method="POST" asp-action="Create" enctype="multipart/form-data">
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="CodigoArtista"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="NombreArtistico" class="form-control" placeholder="Debe digitar el nombre artistico" />
+                    <span asp-validation-for="NombreArtistico" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FechaNacimiento">Fecha de Nacimiento</label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="FechaNacimiento" type="date" class="form-control" placeholder="Debe digitar la fecha de nacimiento" />
+                    <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="NombreReal"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="NombreReal" class="form-control" placeholder="Debe digitar el nombre real del/la artista" />
+                    <span asp-validation-for="NombreReal" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Nacionalidad"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Nacionalidad" class="form-control" placeholder="Debe digitar la nacionalidad" />
+                    <span asp-validation-for="Nacionalidad" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FotoArtista"></label>
+                </div>
+                <div class="col-8">
+                    <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
+                    <span asp-validation-for="FotoArtista" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary form-control">Crear Artista</button>
+                </div>
+                &nbsp;
+                <div class="col">
+                    <a asp-action="Index" class="btn btn-success form-control">Volver atras</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
+
