@@ -1,0 +1,119 @@
+﻿@model Models.Data.Canciones
+@{
+	ViewData["Title"] = "Editar Caciones";
+}
+
+<br />
+<br />
+<h3 class="text-center">Editar Canciones</h3>
+<form method="POST" asp-action="Edit" enctype="multipart/form-data">
+	<input type="hidden" asp-for="CodigoCancion" />
+	<div class="row px-2 border">
+		<div asp-validation-summary="All" class="text-danger"></div>
+
+		<!-- Agrupa el formulario en una columna de 8 -->
+		<div class="col-8 mt-4">
+			<div class="form-group row">
+				<div class="col-4">
+					<label asp-for="CodigoGenero"></label>
+				</div>
+				<div class="col-8">
+					<input asp-for="CodigoGenero" class="form-control" placeholder="Debe digitar el código genero" />
+					<span asp-validation-for="CodigoGenero" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-4">
+					<label asp-for="CodigoAlbum">Fecha de Nacimiento</label>
+				</div>
+				<div class="col-8">
+					<input asp-for="CodigoAlbum" type="date" class="form-control" placeholder="Debe digitar el album" />
+					<span asp-validation-for="CodigoAlbum" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-4">
+					<label asp-for="NombreCancion"></label>
+				</div>
+				<div class="col-8">
+					<input asp-for="NombreCancion" class="form-control" placeholder="Debe digitar el nombre real de la canción" />
+					<span asp-validation-for="NombreCancion" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-4">
+					<label asp-for="LinkVideo"></label>
+				</div>
+				<div class="col-8">
+					<input asp-for="LinkVideo" class="form-control" placeholder="Ingrese la URL de la canción" />
+					<span asp-validation-for="LinkVideo" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-4">
+					<label asp-for="Precio"></label>
+				</div>
+				<div class="col-8">
+					<input asp-for="Precio" class="form-control" placeholder="Ingrese el precio de la canción" />
+					<span asp-validation-for="Precio" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+			<div class="form-group row">
+				<div class="col-4">
+					<label asp-for="CantidadDisponible"></label>
+				</div>
+				<div class="col-8">
+					<input asp-for="CantidadDisponible" class="form-control" placeholder="Ingrese la cantidad disponible" />
+					<span asp-validation-for="CantidadDisponible" class="text-danger"></span>
+				</div>
+			</div>
+
+			<br />
+
+			<div class="row">
+				<div class="col">
+					<button type="submit" class="btn btn-primary form-control">Editar Canción</button>
+				</div>
+				&nbsp;
+				<div class="col">
+					<a asp-action="Index" class="btn btn-success form-control">Volver atras</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+
+
+@section Scripts {
+
+	@{
+		<partial name="_ValidationScriptsPartial" />
+
+	}
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.8.3/tinymce.min.js" integrity="sha512-VCEWnpOl7PIhbYMcb64pqGZYez41C2uws/M/mDdGPy+vtEJHd9BqbShE4/VNnnZdr7YCPOjd+CBmYca/7WWWCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>
+
+		tinymce.init({
+
+			selector: 'textarea',
+
+			plugins: 'lists',
+
+			menubar: 'file edit format'
+
+		});
+	</script>
+
+}
+

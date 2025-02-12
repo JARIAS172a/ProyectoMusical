@@ -12,24 +12,18 @@ function cargarDatatable() {
             "datatype": "json"
         },
         "columns": [
-            { "data": "codigoAlbum", "width": "5%" },
-            { "data": "nombreArtistico", "width": "15%" },
-            { "data": "fechaNacimiento", "width": "15%" },
-            { "data": "nombreReal", "width": "15%" },
-            { "data": "nacionalidad", "width": "15%" },
+            { "data": "codigoAlbum", "width": "10%" },
+            { "data": "codigoArtista", "width": "20%" },
+            { "data": "nombreAlbum", "width": "25%" },
+            { "data": "añoLanzamiento", "width": "20%" },
             {
-                "data": "fotoArtista",
+                "data": "imagenAlbum",
                 "render": function (imagen) {
-                    if (imagen) {
-                        // Reemplaza las barras invertidas por normales y quita el ../
-                        const rutaImagen = imagen.replace(/\\/g, "/");
-                        return `<img src="${rutaImagen}" width="120px">`;
-                    }
-                    return "Sin imagen";
+                    return `<img src="../${imagen}" width="120px ">`
                 }
             },
             {
-                "data": "codigoArtista",
+                "data": "codigoAlbum",
                 "render": function (data) {
                     return `<div class="text-center">
                                 <a href="/Admin/Albumes/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">

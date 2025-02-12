@@ -1,88 +1,51 @@
-﻿@model Models.Data.Artistas
+﻿@model Models.Data.Albumes
 
 @{
-    ViewData["Title"] = "Editar Artista";
+    ViewData["Title"] = "Editar Albumes";
 }
 
 <br />
 <br />
-<h3 class="text-center">Editar Artista</h3>
+<h3 class="text-center">Editar Albumes</h3>
 <form method="POST" asp-action="Edit" enctype="multipart/form-data">
-    <input type="hidden" asp-for="CodigoArtista" />
+    <input type="hidden" asp-for="CodigoAlbum" />
     <div class="row px-2 border">
         <div asp-validation-summary="All" class="text-danger"></div>
 
         <!-- Agrupa el formulario en una columna de 8 -->
-        <div class="col-8 mt-4">
+        <div class="col-10 offset-1 mt-4">
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="NombreArtistico"></label>
+                    <label asp-for="CodigoArtista"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="NombreArtistico" class="form-control" placeholder="Ingresa el nombre artistico" />
-                    <span asp-validation-for="NombreArtistico" class="text-danger"></span>
+                    <input asp-for="CodigoArtista" type="number" min="1" step="1" class="form-control" placeholder="Debe digitar el Código de Artista" />
+                    <span asp-validation-for="CodigoArtista" class="text-danger"></span>
                 </div>
             </div>
 
             <br />
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="NombreReal"></label>
+                    <label asp-for="NombreAlbum"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="NombreReal" class="form-control" placeholder="Ingresa el nombre real del artista" />
-                    <span asp-validation-for="NombreReal" class="text-danger"></span>
+                    <input asp-for="NombreAlbum" class="form-control" placeholder="Debe digitar el nombre del Album" />
+                    <span asp-validation-for="NombreAlbum" class="text-danger"></span>
                 </div>
             </div>
-
             <br />
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="FechaNacimiento"></label>
+                    <label asp-for="AñoLanzamiento"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="FechaNacimiento" class="form-control" type="date" placeholder="Debe digitar la fecha de nacimiento" />
-                    <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+                    <input asp-for="AñoLanzamiento" class="form-control" placeholder="Debe digitar el año de lanzamiento" />
+                    <span asp-validation-for="AñoLanzamiento" class="text-danger"></span>
                 </div>
             </div>
-
             <br />
 
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="Nacionalidad"></label>
-                </div>
-                <div class="col-8">
-                    <input asp-for="Nacionalidad" class="form-control" style="height: 300px;">
-                    <span asp-validation-for="Nacionalidad" class="text-danger"></span>
-                </div>
-            </div>
-
-            <br />
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="FotoArtista"></label>
-                </div>
-                <div class="col-8">
-                    <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
-                    <span asp-validation-for="FotoArtista" class="text-danger"></span>
-                </div>
-            </div>
-
-            <br />
-            @* <div class="form-group row">
-                <div class="col-4">
-                    <label for="Categoría">Categoría</label>
-                </div>
-                <div class="col-8">
-                    @Html.DropDownListFor(m => m.Articulo.CategoriaId, Model.ListaCategorias,
-                             "-Por favor seleccione una categoría-", new { @class = "form-control" })
-                    <span asp-validation-for="Articulo.CategoriaId" class="text-danger"></span>
-                </div>
-            </div>
-
-            <br /> *@
-            
             <div class="row">
                 <div class="col">
                     <button type="submit" class="btn btn-primary form-control">Editar Articulo</button>
@@ -96,7 +59,7 @@
 
         <!-- Muestra la imagen al lado del formulario -->
         <div class="col-4 pt-3">
-            <img src="@Model.FotoArtista" width="300px" style="border-radius: 5px; border:1px solid #bbb9b9" />
+            <img src="@Model.ImagenAlbum" width="300px" style="border-radius: 5px; border:1px solid #bbb9b9" />
         </div>
     </div>
 </form>

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Models.Data;
+using NuGet.ProjectModel;
 
 namespace ProyectoVentaMusical.Areas.Admin.Controllers
 {
@@ -30,15 +31,15 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Albumes album)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 string rutaPrincipal = _hostingEnvironment.WebRootPath;
                 var archivos = HttpContext.Request.Form.Files;
                 if (album.CodigoAlbum == 0 && archivos.Count() > 0)
                 {
                     //Nuevo articulo
                     string nombreArchivo = Guid.NewGuid().ToString();
-                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\artistas");
+                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\albumes");
                     var extension = Path.GetExtension(archivos[0].FileName);
 
                     using (var fileStreams = new FileStream(Path.Combine(subidas, nombreArchivo + extension), FileMode.Create))
@@ -52,11 +53,11 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                     _context.SaveChanges();
 
                     return RedirectToAction(nameof(Index));
-                }
-                else
-                {
-                    ModelState.AddModelError("Imagen", "Debes seleccionar una imagen");
-                }
+                //}
+                //else
+                //{
+                //    ModelState.AddModelError("Imagen", "Debes seleccionar una imagen");
+                //}
 
             }
             return View(album);
@@ -65,14 +66,14 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            Artistas artista = new Artistas();
-            artista = _context.Artistas.FirstOrDefault(a => a.CodigoArtista == id);
-            if (artista == null)
+            Albumes album = new Albumes();
+            album = _context.Albumes.FirstOrDefault(a => a.CodigoAlbum == id);
+            if (album == null)
             {
                 return NotFound();
             }
 
-            return View(artista);
+            return View(album);
         }
 
         [HttpPost]
@@ -84,18 +85,18 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                 string rutaPrincipal = _hostingEnvironment.WebRootPath;
                 var archivos = HttpContext.Request.Form.Files;
 
-                var articuloDesdeBd = _context.Artistas.FirstOrDefault(a => a.CodigoArtista == album.CodigoArtista);
+                var articuloDesdeBd = _context.Albumes.FirstOrDefault(a => a.CodigoAlbum == album.CodigoAlbum);
 
 
                 if (archivos.Count() > 0)
                 {
                     //Nuevo imagen para el artículo
                     string nombreArchivo = Guid.NewGuid().ToString();
-                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\artistas");
+                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\albumes");
                     var extension = Path.GetExtension(archivos[0].FileName);
                     var nuevaExtension = Path.GetExtension(archivos[0].FileName);
 
-                    var rutaImagen = Path.Combine(rutaPrincipal, articuloDesdeBd.FotoArtista.TrimStart('\\'));
+                    var rutaImagen = Path.Combine(rutaPrincipal, articuloDesdeBd.ImagenAlbum.TrimStart('\\'));
 
                     if (System.IO.File.Exists(rutaImagen))
                     {
@@ -108,13 +109,13 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                         archivos[0].CopyTo(fileStreams);
                     }
 
-                    artista.FotoArtista = @"\imagenes\artistas\" + nombreArchivo + extension;
+                    album.ImagenAlbum = @"\imagenes\albumes\" + nombreArchivo + extension;
 
-                    articuloDesdeBd.NombreReal = artista.NombreReal;
-                    articuloDesdeBd.FechaNacimiento = artista.FechaNacimiento;
-                    articuloDesdeBd.NombreArtistico = artista.NombreArtistico;
-                    articuloDesdeBd.FotoArtista = artista.FotoArtista;
-                    articuloDesdeBd.Nacionalidad = artista.Nacionalidad;
+                    
+                    articuloDesdeBd.CodigoArtista = album.CodigoArtista;
+                    articuloDesdeBd.NombreAlbum = album.NombreAlbum;
+                    articuloDesdeBd.AñoLanzamiento = album.AñoLanzamiento;
+                    articuloDesdeBd.ImagenAlbum = album.ImagenAlbum;
                     _context.SaveChanges();
 
                     return RedirectToAction(nameof(Index));
@@ -122,14 +123,13 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                 else
                 {
                     //Aquí sería cuando la imagen ya existe y se conserva
-                    artista.FotoArtista = articuloDesdeBd.FotoArtista;
+                    album.ImagenAlbum = articuloDesdeBd.ImagenAlbum;
                 }
 
-                articuloDesdeBd.NombreReal = artista.NombreReal;
-                articuloDesdeBd.FechaNacimiento = artista.FechaNacimiento;
-                articuloDesdeBd.NombreArtistico = artista.NombreArtistico;
-                articuloDesdeBd.FotoArtista = artista.FotoArtista;
-                articuloDesdeBd.Nacionalidad = artista.Nacionalidad;
+                articuloDesdeBd.CodigoArtista = album.CodigoArtista;
+                articuloDesdeBd.NombreAlbum = album.NombreAlbum;
+                articuloDesdeBd.AñoLanzamiento = album.AñoLanzamiento;
+                articuloDesdeBd.ImagenAlbum = album.ImagenAlbum;
                 _context.SaveChanges();
 
                 return RedirectToAction(nameof(Index));
@@ -142,21 +142,21 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var artistas = _context.Artistas.ToList();
-            return Json(new { data = artistas });
+            var albumes = _context.Albumes.ToList();
+            return Json(new { data = albumes });
         }
 
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _context.Artistas.Find(id);
+            var objFromDb = _context.Albumes.Find(id);
             if (objFromDb == null)
             {
-                return Json(new { success = false, message = "Error borrando artista" });
+                return Json(new { success = false, message = "Error borrando un album" });
             }
-            _context.Artistas.Remove(objFromDb);
+            _context.Albumes.Remove(objFromDb);
             _context.SaveChanges();
-            return Json(new { success = true, message = "Artista Borrada Correctamente" });
+            return Json(new { success = true, message = "Album Borrado Correctamente" });
         }
         #endregion
     }

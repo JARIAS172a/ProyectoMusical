@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿//using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +10,8 @@ namespace Models.ViewModels
 {
     public class AlbumesVM
     {
-        public Albumes Album { get; set; }
-        public IEnumerable<SelectListItem> ListaArtistas { get; set; }
+        //public Albumes Album { get; set; }
+        //public IEnumerable<SelectListItem> ListaArtistas { get; set; }
 
     }
 }

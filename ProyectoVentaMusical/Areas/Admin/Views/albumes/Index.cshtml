@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Lista de Artistas";
+    ViewData["Title"] = "Lista de Albunes";
 }
 
 <div class="container mt-4">
@@ -8,7 +8,7 @@
             <h2 class="text-primary">Lista de Albumes</h2>
         </div>
         <div class="col-4 text-right">
-            <a asp-action="Create" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Crear Nuevo Artista</a>
+            <a asp-action="Create" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Crear Nuevo Album</a>
         </div>
     </div>
 
@@ -18,9 +18,10 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Nombre Artistico</th>
-                <th>Fecha Nacimiento</th>
-                <th>Nombre Real</th>
+                <th>CodigoArtista</th>
+                <th>NombreAlbum</th>
+                <th>AñoLanzamiento</th>
+                <th>ImagenAlbum</th>
                 <th>Acciones</th>
             </tr>
         </thead>

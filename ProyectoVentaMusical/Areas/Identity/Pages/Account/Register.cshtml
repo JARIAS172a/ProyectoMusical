@@ -1,0 +1,130 @@
+﻿@page
+@using Utilidades
+@model RegisterModel
+@{
+    ViewData["Title"] = "Registro de Usuario";
+}
+
+<main class="container mt-5">
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <!-- Formulario de Registro -->
+        <div class="col-md-6">
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="card p-4 shadow">
+                <h2 class="h4 mb-3">Crear nueva cuenta</h2>
+                <hr class="mb-4">
+
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                <!-- Sección: Información Básica -->
+                <div class="mb-4">
+                    <h3 class="h5 mb-3">📝 Información Básica</h3>
+
+                    @* <div class="form-floating mb-3">
+                        <input asp-for="Input.UserName" class="form-control"
+                               placeholder="Nombre de usuario" autocomplete="username" />
+                        <label asp-for="Input.UserName">Nombre de Usuario</label>
+                        <span asp-validation-for="Input.UserName" class="text-danger small"></span>
+                    </div> *@
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control"
+                               placeholder="name@example.com" autocomplete="email" />
+                        <label asp-for="Input.Email">Correo Electrónico</label>
+                        <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                    </div>
+                </div>
+
+                <!-- Sección: Seguridad -->
+                <div class="mb-4">
+                    <h3 class="h5 mb-3">🔐 Seguridad</h3>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control"
+                               placeholder="Contraseña" autocomplete="new-password" />
+                        <label asp-for="Input.Password">Contraseña</label>
+                        <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.ConfirmPassword" class="form-control"
+                               placeholder="Confirmar contraseña" autocomplete="new-password" />
+                        <label asp-for="Input.ConfirmPassword">Confirmar Contraseña</label>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
+                    </div>
+                </div>
+
+                <!-- Sección: Roles (Solo para Administradores) -->
+               @*  @if (User.IsInRole(CNT.Administrador))
+                { *@
+                    <div class="mb-4">
+                        <h3 class="h5 mb-3">👥 Asignación de Rol</h3>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radUsuarioRole"
+                                       value="@CNT.Administrador" id="rolAdmin" />
+                                <label class="form-check-label" for="rolAdmin">@CNT.Administrador</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radUsuarioRole"
+                                       value="@CNT.Contador" id="rolContador" />
+                                <label class="form-check-label" for="rolContador">@CNT.Contador</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radUsuarioRole"
+                                       value="@CNT.Usuario" id="rolUsuario" />
+                                <label class="form-check-label" for="rolUsuario">@CNT.Usuario</label>
+                            </div>
+                        </div>
+                    </div>
+                @* } *@
+
+                <button type="submit" class="btn btn-primary btn-lg w-100 mt-3">
+                    🚀 Registrar Usuario
+                </button>
+            </form>
+        </div>
+
+        <!-- Sección: Autenticación Externa -->
+        @* <div class="col-md-6 mt-4 mt-md-0">
+            <section class="card p-4 shadow">
+                <h3 class="h4 mb-3">🔗 Registro con servicios externos</h3>
+                <hr>
+
+                @if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div class="alert alert-info">
+                        <p class="mb-0">
+                            No hay proveedores de autenticación externos configurados. Consulta este
+                            <a href="https://go.microsoft.com/fwlink/?LinkID=532715" class="alert-link">
+                                artículo de configuración
+                            </a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin"
+                          asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                        <div class="d-grid gap-2">
+                            @foreach (var provider in Model.ExternalLogins!)
+                            {
+                                <button type="submit" class="btn btn-outline-primary"
+                                        name="provider" value="@provider.Name"
+                                        title="Registrarse con @provider.DisplayName">
+                                    <i class="bi bi-@provider.DisplayName.ToLower() me-2"></i>
+                                    @provider.DisplayName
+                                </button>
+                            }
+                        </div>
+                    </form>
+                }
+            </section>
+        </div> *@
+    </div>
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

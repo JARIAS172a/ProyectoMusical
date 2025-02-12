@@ -2018,6 +2018,9 @@
         }
       },
       "Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "8.0.12"
+        },
         "runtime": {
           "Models.dll": {
             "assemblyVersion": "1.0.0",
