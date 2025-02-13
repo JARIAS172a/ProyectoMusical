@@ -25,7 +25,7 @@ namespace Models.Data
         public virtual DbSet<DetalleVentas> DetalleVentas { get; set; }
         public virtual DbSet<GenerosMusicales> GenerosMusicales { get; set; }
         public virtual DbSet<Perfiles> Perfiles { get; set; }
-        public virtual DbSet<Usuarios> Usuarios { get; set; }
+        public virtual DbSet<Usuario> Usuario { get; set; }
         public virtual DbSet<Ventas> Ventas { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -246,7 +246,7 @@ namespace Models.Data
             });
 
             // Configuración de la entidad Usuarios
-            modelBuilder.Entity<Usuarios>(entity =>
+            modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasKey(e => e.IdUsuario)
                       .HasName("PK__Usuarios__5B65BF971D6D212C");

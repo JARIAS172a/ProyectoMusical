@@ -20,8 +20,8 @@ namespace ProyectoVentaMusical.Areas.Usuarios.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var usuarios = _context.Usuarios.ToList();
-            return View(usuarios);
+            var canciones = _context.Canciones.ToList();
+            return View(canciones);
         }
 
         public IActionResult Privacy()

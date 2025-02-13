@@ -12,8 +12,53 @@ function cargarDatatable() {
             "datatype": "json"
         },
         "columns": [
-            { "data": "codigoCancion", "width": "50%" },
-            { "data": "nombreCancion", "width": "50%" }
+            { "data": "codigoCancion", "width": "10%" },
+            { "data": "codigoGenero", "width": "10%" },
+            { "data": "codigoAlbum", "width": "10%" },
+            { "data": "nombreCancion", "width": "15%" },
+            {
+                "data": "linkVideo",
+                "render": function (data) {
+                    if (!data) return "Sin enlace";
+
+                    // Añade protocolo HTTPS si no está presente
+                    const url = data.startsWith("http") ? data : `https://${data}`;
+
+                    // Opcional: Acortar visualización del enlace
+                    const displayText = data.replace("https://", "").replace("www.", "");
+
+                    return `<a href="${url}" target="_blank" class="text-primary">${displayText}</a>`;
+                },
+                "width": "10%"
+            },
+            { "data": "precio", "width": "10%" },
+            { "data": "cantidadDisponible", "width": "10%" },
+            {
+                "data": "fotoCancion",
+                "render": function (imagen) {
+                    if (imagen) {
+                        // Reemplaza las barras invertidas por normales y quita el ../
+                        const rutaImagen = imagen.replace(/\\/g, "/");
+                        return `<img src="${rutaImagen}" width="120px">`;
+                    }
+                    return "Sin imagen";
+                }
+            },
+            {
+                "data": "codigoCancion",
+                "render": function (data) {
+                    return `<div class="text-center">
+                                <a href="/Admin/Canciones/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
+                                    <i class="far fa-edit"></i> Editar
+                                </a>
+                                &nbsp;
+                                <a onclick=Delete("/Admin/Canciones/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer; width:140px;">
+                                    <i class="far fa-trash-alt"></i> Borrar
+                                </a>
+                          </div>
+                         `;
+                }, "width": "25%"
+            }
         ],
         "language": {
             "decimal": "",

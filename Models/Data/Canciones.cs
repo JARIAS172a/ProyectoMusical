@@ -18,8 +18,9 @@ public partial class Canciones
     public decimal Precio { get; set; }
 
     public int CantidadDisponible { get; set; }
+	public string fotoCancion { get; set; }
 
-    public virtual Albumes CodigoAlbumNavigation { get; set; } = null!;
+	public virtual Albumes CodigoAlbumNavigation { get; set; } = null!;
 
     public virtual GenerosMusicales CodigoGeneroNavigation { get; set; } = null!;
 

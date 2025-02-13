@@ -1,31 +1,61 @@
-﻿@model IEnumerable<Models.Data.Usuarios>
+﻿@using Utilidades
+@model IEnumerable<Models.Data.Canciones>
 @{
     ViewData["Title"] = "Home Page";
 }
 
-
-<h1>Lista de Usuarios</h1>
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Nombre de Usuario</th>
-            <th>Correo Electronico</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var usuario in Model)
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Lista de Canciones</h1>
+    <div class="row">
+        @foreach (var cancion in Model)
         {
-            <tr>
-                <td>@usuario.NombreCompleto</td>
-                <td>@usuario.CorreoElectronico</td>
-                <td>
-                    <!-- Opcional: Botones de acción -->
-                    <a href="@Url.Action("Details", "Usuario", new { id = usuario.IdUsuario })" class="btn btn-primary btn-sm">Detalles</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    @if (!string.IsNullOrEmpty(cancion.fotoCancion))
+                    {
+                        <img src="@cancion.fotoCancion.Replace("\\","/")"
+                             class="card-img-top"
+                             alt="@cancion.NombreCancion"
+                             style="height: 250px; object-fit: cover;">
+                    }
+                    else
+                    {
+                        <div class="text-center py-5 bg-light">
+                            <i class="fas fa-music fa-5x text-muted"></i>
+                        </div>
+                    }
 
+                    <div class="card-body">
+                        <h5 class="card-title">@cancion.NombreCancion</h5>
+                        <p class="card-text">
+                            <strong>Precio:</strong> @cancion.Precio.ToString("C")<br>
+                            <strong>Disponibles:</strong> @cancion.CantidadDisponible
+                        </p>
+                        <span class="@(cancion.CantidadDisponible > 0 ? "text-success" : "text-danger")">
+                            @(cancion.CantidadDisponible > 0 ? "En stock" : "Agotado")
+                        </span>
+                    </div>
+
+                    <div class="card-footer bg-white">
+                        <div class="d-flex justify-content-between">
+                            @if (!string.IsNullOrEmpty(cancion.LinkVideo))
+                            {
+                                <a href="@cancion.LinkVideo"
+                                   class="btn btn-outline-primary"
+                                   target="_blank">
+                                    <i class="fab fa-youtube"></i> Ver Video
+                                </a>
+                                if (User.IsInRole(CNT.Usuario))
+                                {
+                                    <a href="@Url.Action("Comprar", "Comprar")" class="btn btn-outline-success text-center">Comprar</a>
+                                }                                
+                            }
+                            <br />
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

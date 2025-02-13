@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Desktop\\ProyectoVentaMusical\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|d:\\desktop\\proyectoventamusical\\proyectoventamusical\\areas\\admin\\views\\generos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\views\\generos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|d:\\desktop\\proyectoventamusical\\proyectoventamusical\\areas\\admin\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|d:\\desktop\\proyectoventamusical\\proyectoventamusical\\areas\\admin\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|d:\\desktop\\proyectoventamusical\\proyectoventamusical\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|d:\\desktop\\proyectoventamusical\\proyectoventamusical\\areas\\usuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\usuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|d:\\desktop\\proyectoventamusical\\proyectoventamusical\\areas\\usuarios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\usuarios\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9BC3ED-D8B7-49E7-91ED-656A91AC5F70}|Models\\Models.csproj|d:\\desktop\\proyectoventamusical\\models\\data\\canciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9BC3ED-D8B7-49E7-91ED-656A91AC5F70}|Models\\Models.csproj|solutionrelative:models\\data\\canciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Admin\\Views\\Generos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Views\\Generos\\Edit.cshtml",
+              "ToolTip": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Admin\\Views\\Generos\\Edit.cshtml",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Views\\Generos\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T00:48:41.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T00:30:13.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenerosController.cs",
+              "DocumentMoniker": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\GenerosController.cs",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\GenerosController.cs",
+              "ToolTip": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\GenerosController.cs",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\GenerosController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwEEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T00:29:24.445Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -40,12 +108,56 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProyectoVentaMusical\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T23:53:21.391Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-12T23:26:07.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Usuarios\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Usuarios\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\Areas\\Usuarios\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Usuarios\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T23:32:58.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Canciones.cs",
+              "DocumentMoniker": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Data\\Canciones.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\Canciones.cs",
+              "ToolTip": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Data\\Canciones.cs",
+              "RelativeToolTip": "Models\\Data\\Canciones.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T23:27:02.053Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -38,22 +38,45 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
 
         }
 
-        [HttpPost]
 
-        [ValidateAntiForgeryToken]
 
-        public IActionResult Create(Canciones cancion)
-        {
-            //if (ModelState.IsValid)
-            //{
-            _context.Canciones.Add(cancion);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
-            //}
-            return View(cancion);
-        }
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public IActionResult Create(Canciones cancion)
+		{
+			//if (ModelState.IsValid)
+			//{
+				string rutaPrincipal = _hostingEnvironment.WebRootPath;
+				var archivos = HttpContext.Request.Form.Files;
+				if (cancion.CodigoCancion == 0 && archivos.Count() > 0)
+				{
+					// Nueva canción
+					string nombreArchivo = Guid.NewGuid().ToString();
+					var subidas = Path.Combine(rutaPrincipal, @"imagenes\canciones");
+					var extension = Path.GetExtension(archivos[0].FileName);
 
-        [HttpGet]
+					using (var fileStreams = new FileStream(Path.Combine(subidas, nombreArchivo + extension), FileMode.Create))
+					{
+						archivos[0].CopyTo(fileStreams);
+					}
+
+					cancion.fotoCancion = @"\imagenes\canciones\" + nombreArchivo + extension;
+
+					_context.Canciones.Add(cancion);
+					_context.SaveChanges();
+
+					return RedirectToAction(nameof(Index));
+				//}
+				//else
+				//{
+				//	ModelState.AddModelError("Archivo", "Debes seleccionar un archivo de audio");
+				//}
+			}
+			return View(cancion);
+		}
+
+
+		[HttpGet]
 
         public IActionResult Edit(int id)
         {
@@ -68,36 +91,73 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
             return View(cancion);
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit(Canciones cancion)
-        {
-            //if (ModelState.IsValid)
-            //{
-            var articuloDesdeBd = _context.Canciones.FirstOrDefault(a => a.CodigoCancion == cancion.CodigoCancion);
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public IActionResult Edit(Canciones cancion)
+		{
+			//if (ModelState.IsValid)
+			//{
+				string rutaPrincipal = _hostingEnvironment.WebRootPath;
+				var archivos = HttpContext.Request.Form.Files;
 
-            articuloDesdeBd.CodigoGenero = cancion.CodigoGenero;
+				var cancionDesdeBd = _context.Canciones.FirstOrDefault(a => a.CodigoCancion == cancion.CodigoCancion);
 
-            articuloDesdeBd.CodigoAlbum = cancion.CodigoAlbum;
+				if (archivos.Count() > 0)
+				{
+					// 
+					string nombreArchivo = Guid.NewGuid().ToString();
+					var subidas = Path.Combine(rutaPrincipal, @"imagenes\canciones");
+					var extension = Path.GetExtension(archivos[0].FileName);
 
-            articuloDesdeBd.NombreCancion = cancion.NombreCancion;
+					var rutaCancion = Path.Combine(rutaPrincipal, cancionDesdeBd.fotoCancion.TrimStart('\\'));
 
-            articuloDesdeBd.LinkVideo = cancion.LinkVideo;
+					if (System.IO.File.Exists(rutaCancion))
+					{
+						System.IO.File.Delete(rutaCancion);
+					}
 
-            articuloDesdeBd.Precio = cancion.Precio;
+					// Nuevamente subimos el archivo
+					using (var fileStreams = new FileStream(Path.Combine(subidas, nombreArchivo + extension), FileMode.Create))
+					{
+						archivos[0].CopyTo(fileStreams);
+					}
 
-            articuloDesdeBd.CantidadDisponible = cancion.CantidadDisponible;
+					cancion.fotoCancion = @"\imagenes\canciones\" + nombreArchivo + extension;
 
-            _context.SaveChanges();
+					cancionDesdeBd.CodigoGenero = cancion.CodigoGenero;
+					//cancionDesdeBd.CodigoAlbum = cancion.CodigoAlbum;
+					cancionDesdeBd.NombreCancion = cancion.NombreCancion;
+					cancionDesdeBd.LinkVideo = cancion.LinkVideo;
+					cancionDesdeBd.Precio = cancion.Precio;
+					cancionDesdeBd.CantidadDisponible = cancion.CantidadDisponible;
+					cancionDesdeBd.fotoCancion = cancion.fotoCancion;
+					_context.SaveChanges();
 
-            return RedirectToAction(nameof(Index));
-            //}
-            //return View();
-        }
+					return RedirectToAction(nameof(Index));
+				}
+				else
+				{
+					// Aquí sería cuando el arc ya existe y se conserva
+					cancion.fotoCancion = cancionDesdeBd.fotoCancion;
+				}
 
-        #region Llamadas a la API
+				cancionDesdeBd.CodigoGenero = cancion.CodigoGenero;
+				//cancionDesdeBd.CodigoAlbum = cancion.CodigoAlbum;
+				cancionDesdeBd.NombreCancion = cancion.NombreCancion;
+				cancionDesdeBd.LinkVideo = cancion.LinkVideo;
+				cancionDesdeBd.Precio = cancion.Precio;
+				cancionDesdeBd.CantidadDisponible = cancion.CantidadDisponible;
+				cancionDesdeBd.fotoCancion = cancion.fotoCancion;
+				_context.SaveChanges();
 
-        [HttpGet]
+				return RedirectToAction(nameof(Index));
+			//}
+			return View(cancion);
+		}
+
+		#region Llamadas a la API
+
+		[HttpGet]
 
         public IActionResult GetAll()
         {

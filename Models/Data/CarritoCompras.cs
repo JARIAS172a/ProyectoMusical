@@ -19,5 +19,5 @@ public partial class CarritoCompras
 
     public virtual ICollection<DetalleCarrito> DetalleCarritos { get; set; } = new List<DetalleCarrito>();
 
-    public virtual Usuarios IdUsuarioNavigation { get; set; } = null!;
+    public virtual Usuario IdUsuarioNavigation { get; set; } = null!;
 }

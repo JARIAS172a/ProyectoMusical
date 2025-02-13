@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-2 border-primary shadow-sm mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ProyectoVentaMusical</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -24,6 +24,24 @@
                         @* <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sistema Ventas Musicales</a>
                         </li> *@
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Desplegable de Opciones
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Artistas</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Canciones</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Carrito Compras</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="GenerosMusicales" asp-action="Index">Generos Musicales</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">usuarios</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Albumes" asp-action="Index">Albumes</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Venta de Canciones</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Historial de compras</a>
+
+                                @* <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Otra acción</a> *@
+                            </div>
+                        </li>
 
                         @if (User.IsInRole(CNT.Administrador))
                         {
@@ -92,10 +110,11 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - ProyectoVentaMusical - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+ 
+    <footer class="border-top footer text-muted text-center">
+    <div class="container">
+    &copy; 2025 - ProyectoVentaMusical - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
