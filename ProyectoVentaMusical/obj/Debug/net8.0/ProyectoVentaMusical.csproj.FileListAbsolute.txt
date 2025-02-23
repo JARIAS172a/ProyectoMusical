@@ -272,6 +272,16 @@ C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\ProyectoVentaMusic
 C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\AccesoDatos.pdb
 C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Models.pdb
 C:\Proyectos VisualStudio\PrograAvanzada\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Utilidades.pdb
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.csproj.AssemblyReference.cache
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.AssemblyInfoInputs.cache
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.AssemblyInfo.cs
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.csproj.CoreCompileInputs.cache
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.RazorAssemblyInfo.cache
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.RazorAssemblyInfo.cs
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.sourcelink.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\appsettings.Development.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\appsettings.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\ProyectoVentaMusical.staticwebassets.runtime.json
@@ -283,6 +293,12 @@ D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\ProyectoVe
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Azure.Core.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Azure.Identity.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Humanizer.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Mvc.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Razor.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Helpers.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -337,6 +353,7 @@ D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -521,16 +538,6 @@ D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Utilidades
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\AccesoDatos.pdb
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Models.pdb
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Utilidades.pdb
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.csproj.AssemblyReference.cache
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.GeneratedMSBuildEditorConfig.editorconfig
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.AssemblyInfoInputs.cache
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.AssemblyInfo.cs
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.csproj.CoreCompileInputs.cache
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.MvcApplicationPartsAssemblyInfo.cs
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.MvcApplicationPartsAssemblyInfo.cache
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.RazorAssemblyInfo.cache
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.RazorAssemblyInfo.cs
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.sourcelink.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\staticwebassets.build.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\staticwebassets.development.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\staticwebassets\msbuild.ProyectoVentaMusical.Microsoft.AspNetCore.StaticWebAssets.props
@@ -547,10 +554,3 @@ D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\refint\Pro
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.pdb
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.genruntimeconfig.cache
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ref\ProyectoVentaMusical.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Mvc.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Razor.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Helpers.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

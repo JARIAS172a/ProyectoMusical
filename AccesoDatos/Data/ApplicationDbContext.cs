@@ -161,11 +161,6 @@ namespace Models.Data
                 entity.Property(e => e.Total)
                       .HasColumnType("decimal(10, 2)");
 
-                entity.HasOne(d => d.IdUsuarioNavigation)
-                      .WithMany(p => p.CarritoCompras)
-                      .HasForeignKey(d => d.IdUsuario)
-                      .OnDelete(DeleteBehavior.ClientSetNull)
-                      .HasConstraintName("FK__CarritoCo__IdUsu__38996AB5");
             });
 
             // Configuración de la entidad DetalleCarrito

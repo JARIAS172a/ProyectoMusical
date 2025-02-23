@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7cELyt9EJPX8fd+Tvbo/OHvrYhxWwY01omV5G2NvKBg=",
+  "Hash": "zU4Fp6VKhLZjJ8u+jtNQ/RL44aj9n3KSo21xfZTb3z8=",
   "Source": "ProyectoVentaMusical",
   "BasePath": "_content/ProyectoVentaMusical",
   "Mode": "Default",
@@ -1271,6 +1271,25 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\22ca3eec-08b6-4cc0-afe9-5ed796e6bed4.jpg"
     },
     {
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png",
+      "SourceId": "ProyectoVentaMusical",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "BasePath": "_content/ProyectoVentaMusical",
+      "RelativePath": "imagenes/albumes/29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png"
+    },
+    {
       "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\5338f9da-cd41-4b94-a3db-02d12c570216.png",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
@@ -1364,25 +1383,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\d3c12832-e128-44d4-b3d0-8922b1e771eb.png"
-    },
-    {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\d7885a0d-a372-477e-8d9f-669d470bf8dd.jpg",
-      "SourceId": "ProyectoVentaMusical",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
-      "BasePath": "_content/ProyectoVentaMusical",
-      "RelativePath": "imagenes/albumes/d7885a0d-a372-477e-8d9f-669d470bf8dd.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\d7885a0d-a372-477e-8d9f-669d470bf8dd.jpg"
     },
     {
       "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg",
@@ -1763,6 +1763,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\canciones.js"
+    },
+    {
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\comprar.js",
+      "SourceId": "ProyectoVentaMusical",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "BasePath": "_content/ProyectoVentaMusical",
+      "RelativePath": "js/comprar.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\comprar.js"
     },
     {
       "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\generos.js",

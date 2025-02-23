@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Models.Data;
+using Models.ViewModels;
 
 namespace ProyectoVentaMusical.Areas.Admin.Controllers
 {
@@ -11,34 +12,27 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         private readonly ApplicationDbContext _context;
 
         public CancionesController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment)
-
         {
-
             _context = context;
-
-            _hostingEnvironment = hostingEnvironment;
-
+			_hostingEnvironment = hostingEnvironment;
         }
 
         public IActionResult Index()
-
         {
-
+            CancionesVM cancionVM = new CancionesVM()
+            {
+                Cancion = new Canciones(),
+                ListaAlbumes = _context.Albumes.ToList(),
+				ListaGeneros = _context.GenerosMusicales.ToList(),
+            };
             return View();
-
         }
 
         [HttpGet]
-
         public IActionResult Create()
-
         {
-
             return View();
-
         }
-
-
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
@@ -77,7 +71,6 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
 
 
 		[HttpGet]
-
         public IActionResult Edit(int id)
         {
             Canciones cancion = new Canciones();

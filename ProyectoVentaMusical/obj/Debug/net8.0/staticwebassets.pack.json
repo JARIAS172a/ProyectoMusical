@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\imagenes\\albumes\\22ca3eec-08b6-4cc0-afe9-5ed796e6bed4.jpg"
     },
     {
+      "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png",
+      "PackagePath": "staticwebassets\\imagenes\\albumes\\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png"
+    },
+    {
       "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\5338f9da-cd41-4b94-a3db-02d12c570216.png",
       "PackagePath": "staticwebassets\\imagenes\\albumes\\5338f9da-cd41-4b94-a3db-02d12c570216.png"
     },
@@ -39,10 +43,6 @@
     {
       "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\d3c12832-e128-44d4-b3d0-8922b1e771eb.png",
       "PackagePath": "staticwebassets\\imagenes\\albumes\\d3c12832-e128-44d4-b3d0-8922b1e771eb.png"
-    },
-    {
-      "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\d7885a0d-a372-477e-8d9f-669d470bf8dd.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\albumes\\d7885a0d-a372-477e-8d9f-669d470bf8dd.jpg"
     },
     {
       "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg",
@@ -123,6 +123,10 @@
     {
       "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\canciones.js",
       "PackagePath": "staticwebassets\\js\\canciones.js"
+    },
+    {
+      "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\comprar.js",
+      "PackagePath": "staticwebassets\\js\\comprar.js"
     },
     {
       "Id": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\generos.js",
