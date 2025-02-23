@@ -16,8 +16,8 @@ D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.Generated
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfoInputs.cache
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfo.cs
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.csproj.CoreCompileInputs.cache
+D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.sourcelink.json
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.dll
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\refint\Utilidades.dll
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.pdb
 D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\ref\Utilidades.dll
-D:\Desktop\ProyectoVentaMusical\Utilidades\obj\Debug\net8.0\Utilidades.sourcelink.json

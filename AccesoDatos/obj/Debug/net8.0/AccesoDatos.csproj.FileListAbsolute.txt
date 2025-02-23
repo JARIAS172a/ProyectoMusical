@@ -30,10 +30,10 @@ D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.Generat
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfoInputs.cache
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.AssemblyInfo.cs
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.csproj.CoreCompileInputs.cache
+D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDa.B2719C34.Up2Date
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.dll
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\refint\AccesoDatos.dll
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.pdb
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.genruntimeconfig.cache
 D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\ref\AccesoDatos.dll
-D:\Desktop\ProyectoVentaMusical\AccesoDatos\obj\Debug\net8.0\AccesoDatos.sourcelink.json

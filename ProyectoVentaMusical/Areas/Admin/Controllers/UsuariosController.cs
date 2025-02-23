@@ -31,14 +31,14 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Usuario usuario)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 //Nuevo usuario
                 _context.Usuario.Add(usuario);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(usuario);
+            //}
+            //return View(usuario);
         }
         [HttpGet]
         public IActionResult Edit(int id)

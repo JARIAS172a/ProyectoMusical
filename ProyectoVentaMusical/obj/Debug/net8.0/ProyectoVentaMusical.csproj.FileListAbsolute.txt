@@ -530,6 +530,7 @@ D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVe
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.MvcApplicationPartsAssemblyInfo.cache
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.RazorAssemblyInfo.cache
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.RazorAssemblyInfo.cs
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.sourcelink.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\staticwebassets.build.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\staticwebassets.development.json
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\staticwebassets\msbuild.ProyectoVentaMusical.Microsoft.AspNetCore.StaticWebAssets.props
@@ -546,4 +547,10 @@ D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\refint\Pro
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.pdb
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.genruntimeconfig.cache
 D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ref\ProyectoVentaMusical.dll
-D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\obj\Debug\net8.0\ProyectoVentaMusical.sourcelink.json
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Mvc.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Razor.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.Helpers.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\System.Web.WebPages.dll
+D:\Desktop\ProyectoVentaMusical\ProyectoVentaMusical\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

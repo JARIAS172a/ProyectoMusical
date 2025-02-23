@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Conta\Controllers\" />
     <Folder Include="Areas\Conta\Models\" />
     <Folder Include="Areas\Usuarios\Models\" />
@@ -25,6 +24,7 @@
     <Folder Include="wwwroot\imagenes\artistas\" />
     <Folder Include="wwwroot\imagenes\albumes\" />
     <Folder Include="wwwroot\imagenes\canciones\" />
+    <Folder Include="wwwroot\imagenes\generos\" />
   </ItemGroup>
 
   <ItemGroup>

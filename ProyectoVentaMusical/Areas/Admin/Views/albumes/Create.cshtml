@@ -1,4 +1,4 @@
-﻿@model Models.Data.Albumes
+﻿@model Models.ViewModels.AlbumesVM
 
 @{
     // Aqui solo le da el nombre a la pesta;a de arriba del navegador
@@ -15,43 +15,49 @@
         <div class="col-10 offset-1 mt-4">
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="CodigoArtista"></label>
+                    <label for="CodigoArtista" class="control-label">Artista</label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="CodigoArtista" type="number" min="1" step="1" class="form-control" placeholder="Debe digitar el Código de Artista" />
-                    <span asp-validation-for="CodigoArtista" class="text-danger"></span>
+                    <select asp-for="Album.CodigoArtista" class="form-control">
+                        <option value="">Seleccione un artista</option>
+                        @foreach (var artista in Model.ListaArtistas)
+                        {
+                            <option value="@artista.CodigoArtista">@artista.NombreArtistico</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Album.CodigoArtista" class="text-danger"></span>
                 </div>
             </div>
 
             <br />
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="NombreAlbum"></label>
+                    <label asp-for="Album.NombreAlbum"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="NombreAlbum" class="form-control" placeholder="Debe digitar el nombre del Album" />
-                    <span asp-validation-for="NombreAlbum" class="text-danger"></span>
+                    <input asp-for="Album.NombreAlbum" class="form-control" placeholder="Debe digitar el nombre del Album" />
+                    <span asp-validation-for="Album.NombreAlbum" class="text-danger"></span>
                 </div>
             </div>
             <br />
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="AñoLanzamiento"></label>
+                    <label asp-for="Album.AñoLanzamiento"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="AñoLanzamiento" class="form-control" placeholder="Debe digitar el año de lanzamiento" />
-                    <span asp-validation-for="AñoLanzamiento" class="text-danger"></span>
+                    <input asp-for="Album.AñoLanzamiento" class="form-control" placeholder="Debe digitar el año de lanzamiento" />
+                    <span asp-validation-for="Album.AñoLanzamiento" class="text-danger"></span>
                 </div>
             </div>
             <br />
             
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="ImagenAlbum"></label>
+                    <label asp-for="Album.ImagenAlbum"></label>
                 </div>
                 <div class="col-8">
                     <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
-                    <span asp-validation-for="ImagenAlbum" class="text-danger"></span>
+                    <span asp-validation-for="Album.ImagenAlbum" class="text-danger"></span>
                 </div>
             </div>
 

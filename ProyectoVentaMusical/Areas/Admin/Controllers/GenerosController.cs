@@ -24,22 +24,23 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Artistas artista)
+        public IActionResult Create(GenerosMusicales genero)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 string rutaPrincipal = _hostingEnvironment.WebRootPath;
                 var archivos = HttpContext.Request.Form.Files;
-                if (artista.CodigoArtista == 0 && archivos.Count() > 0)
+                if (genero.CodigoGenero == 0 && archivos.Count() > 0)
                 {
                     //Nuevo articulo
                     string nombreArchivo = Guid.NewGuid().ToString();
-                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\artistas");
+                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\generos");
                     var extension = Path.GetExtension(archivos[0].FileName);
 
                     using (var fileStreams = new FileStream(Path.Combine(subidas, nombreArchivo + extension), FileMode.Create))
@@ -47,9 +48,9 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                         archivos[0].CopyTo(fileStreams);
                     }
 
-                    artista.FotoArtista = @"\imagenes\artistas\" + nombreArchivo + extension;
+                    genero.FotoGenero = @"\imagenes\generos\" + nombreArchivo + extension;
 
-                    _context.Artistas.Add(artista);
+                    _context.GenerosMusicales.Add(genero);
                     _context.SaveChanges();
 
                     return RedirectToAction(nameof(Index));
@@ -59,42 +60,42 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                     ModelState.AddModelError("Imagen", "Debes seleccionar una imagen");
                 }
 
-            }
-            return View(artista);
+            //}
+            return View(genero);
         }
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            Artistas artista = new Artistas();
-            artista = _context.Artistas.FirstOrDefault(a => a.CodigoArtista == id);
-            if (artista == null)
+            GenerosMusicales genero = new GenerosMusicales();
+            genero = _context.GenerosMusicales.FirstOrDefault(a => a.CodigoGenero == id);
+            if (genero == null)
             {
                 return NotFound();
             }
 
-            return View(artista);
+            return View(genero);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Artistas artista)
+        public IActionResult Edit(GenerosMusicales genero)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 string rutaPrincipal = _hostingEnvironment.WebRootPath;
                 var archivos = HttpContext.Request.Form.Files;
 
-                var articuloDesdeBd = _context.Artistas.FirstOrDefault(a => a.CodigoArtista == artista.CodigoArtista);
+                var articuloDesdeBd = _context.GenerosMusicales.FirstOrDefault(a => a.CodigoGenero == genero.CodigoGenero);
 
 
                 if (archivos.Count() > 0)
                 {
                     //Nuevo imagen para el artículo
                     string nombreArchivo = Guid.NewGuid().ToString();
-                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\artistas");
+                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\generos");
                     var extension = Path.GetExtension(archivos[0].FileName);
                     var nuevaExtension = Path.GetExtension(archivos[0].FileName);
 
-                    var rutaImagen = Path.Combine(rutaPrincipal, articuloDesdeBd.FotoArtista.TrimStart('\\'));
+                    var rutaImagen = Path.Combine(rutaPrincipal, articuloDesdeBd.FotoGenero.TrimStart('\\'));
 
                     if (System.IO.File.Exists(rutaImagen))
                     {
@@ -107,13 +108,10 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                         archivos[0].CopyTo(fileStreams);
                     }
 
-                    artista.FotoArtista = @"\imagenes\artistas\" + nombreArchivo + extension;
+                    genero.FotoGenero = @"\imagenes\generos\" + nombreArchivo + extension;
 
-                    articuloDesdeBd.NombreReal = artista.NombreReal;
-                    articuloDesdeBd.FechaNacimiento = artista.FechaNacimiento;
-                    articuloDesdeBd.NombreArtistico = artista.NombreArtistico;
-                    articuloDesdeBd.FotoArtista = artista.FotoArtista;
-                    articuloDesdeBd.Nacionalidad = artista.Nacionalidad;
+                    articuloDesdeBd.Descripcion = genero.Descripcion;
+                    articuloDesdeBd.FotoGenero = genero.FotoGenero;
                     _context.SaveChanges();
 
                     return RedirectToAction(nameof(Index));
@@ -121,19 +119,16 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                 else
                 {
                     //Aquí sería cuando la imagen ya existe y se conserva
-                    artista.FotoArtista = articuloDesdeBd.FotoArtista;
+                    genero.FotoGenero = articuloDesdeBd.FotoGenero;
                 }
 
-                articuloDesdeBd.NombreReal = artista.NombreReal;
-                articuloDesdeBd.FechaNacimiento = artista.FechaNacimiento;
-                articuloDesdeBd.NombreArtistico = artista.NombreArtistico;
-                articuloDesdeBd.FotoArtista = artista.FotoArtista;
-                articuloDesdeBd.Nacionalidad = artista.Nacionalidad;
+                articuloDesdeBd.Descripcion = genero.Descripcion;
+                articuloDesdeBd.FotoGenero = genero.FotoGenero;
                 _context.SaveChanges();
 
                 return RedirectToAction(nameof(Index));
 
-            }
+            //}
             return View();
         }
 
@@ -141,21 +136,21 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var artistas = _context.Artistas.ToList();
-            return Json(new { data = artistas });
+            var generos = _context.GenerosMusicales.ToList();
+            return Json(new { data = generos });
         }
 
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _context.Artistas.Find(id);
+            var objFromDb = _context.GenerosMusicales.Find(id);
             if (objFromDb == null)
             {
-                return Json(new { success = false, message = "Error borrando artista" });
+                return Json(new { success = false, message = "Error borrando Genero" });
             }
-            _context.Artistas.Remove(objFromDb);
+            _context.GenerosMusicales.Remove(objFromDb);
             _context.SaveChanges();
-            return Json(new { success = true, message = "Artista Borrada Correctamente" });
+            return Json(new { success = true, message = "Genero Borrado Correctamente" });
         }
         #endregion
     }

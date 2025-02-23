@@ -20,6 +20,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    
                     <ul class="navbar-nav flex-grow-1">
                         @* <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sistema Ventas Musicales</a>
@@ -32,8 +33,8 @@
                                 <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Artistas</a>
                                 <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Canciones</a>
                                 <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Carrito Compras</a>
-                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="GenerosMusicales" asp-action="Index">Generos Musicales</a>
-                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">usuarios</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Generos" asp-action="Index">Generos Musicales</a>
+                                <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
                                 <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Albumes" asp-action="Index">Albumes</a>
                                 <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Venta de Canciones</a>
                                 <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Historial de compras</a>
@@ -53,7 +54,7 @@
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Artistas</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Canciones</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Carrito Compras</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="GenerosMusicales" asp-action="Index">Generos Musicales</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Generos" asp-action="Index">Generos Musicales</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">usuarios</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Albumes" asp-action="Index">Albumes</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Venta de Canciones</a>
@@ -74,7 +75,7 @@
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Artistas</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Canciones</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Carrito Compras</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="GenerosMusicales" asp-action="Index">Generos Musicales</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Generos" asp-action="Index">Generos Musicales</a>
 
                                     @* <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Otra acción</a> *@
@@ -99,7 +100,7 @@
                             </li>
                         }
                     </ul>
-                    <partial name="_LoginPartial" />
+                        <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
