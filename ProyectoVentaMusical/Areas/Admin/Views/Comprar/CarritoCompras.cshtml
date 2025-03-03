@@ -1,0 +1,61 @@
+﻿@model Models.ViewModels.CarritoMostrarVM
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Tu Carrito de Compras</h1>
+
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Nombre Cancion</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Total</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.DetalleCarrito)
+                {
+                    <tr>
+                        <td>@item.CodigoCancionNavigation.NombreCancion</td>
+                        <td>
+                            <input type="number" class="form-control" value="@item.Cantidad" min="1" onchange="actualizarCantidad(@item.IdDetalleCarrito, this.value)" />
+                        </td>
+                        <td>@item.PrecioUnitario.ToString("C")</td>
+                        <td>@($"${Math.Round(item.Cantidad * item.PrecioUnitario, 0)}")</td>
+                        <td>
+                            <button class="btn btn-danger" onclick="eliminarProducto(@item.IdDetalleCarrito)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div>
+            <p><strong>Total:</strong> @Model.DetalleCarrito.Sum(item => item.Cantidad * item.PrecioUnitario).ToString("C")</p>
+            <button class="btn btn-success" onclick="window.location.href='@Url.Action("Pagar", "Comprar")'">Proceder al Pago</button>
+            <button class="btn btn-secondary" onclick="window.location.href='@Url.Action("Index", "Comprar")'">Seguir Comprando</button>
+        </div>
+    </div>
+
+
+    @* function actualizarCantidad(idDetalleCarrito, cantidad) {
+    // Enviar una solicitud AJAX a un endpoint del servidor para actualizar la cantidad
+    // (Deberás implementar este endpoint en tu controlador)
+    }
+
+    function eliminarProducto(idDetalleCarrito) {
+    // Enviar una solicitud AJAX a un endpoint del servidor para eliminar un producto del carrito
+    // (Este endpoint también deberá ser implementado en tu controlador)
+    } *@
+    </script>
+</body>
+</html>

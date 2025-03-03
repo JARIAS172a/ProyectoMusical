@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model Models.ApplicationUser
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<h2>Selecciona un Método de Pago</h2>
+
+<form id="paymentForm">
+    <select id="paymentType" name="paymentType">
+        <option value="">Selecciona un Método</option>
+        <option value="Transferencia Bancaria">Transferencia Bancaria</option>
+        <option value="Tarjeta de Crédito">Tarjeta de Crédito</option>
+        <option value="Dinero Disponible">Dinero Disponible</option>
+    </select>
+
+    <div id="creditCardInfo" style="display:none;">
+        <p>Información de Tarjeta de Crédito:</p>
+        <input type="text" placeholder="Número de Tarjeta" />
+        <input type="text" placeholder="CVV" />
+        <input type="month" placeholder="Fecha de Expiración" />
+        <button type="button">Pagar</button>
+    </div>
+
+    <div id="sinpeInfo" style="display:none;">
+        <button type="button">Confirmar Pago por SINPE</button>
+    </div>
+
+    @*  <div id="availableMoney" style="display:none;">
+    <p>Dinero Disponible: @Model.DineroDisponible</p>
+    <button type="button">Usar Dinero Disponible</button>
+    </div> *@
+</form>
+
+<script>
+    $(document).ready(function () {
+        $('#paymentType').change(function () {
+            var selectedPaymentMethod = $(this).val();
+            $('#creditCardInfo').hide();
+            $('#sinpeInfo').hide();
+            $('#availableMoney').hide();
+
+            switch (selectedPaymentMethod) {
+                case 'Tarjeta de Crédito':
+                    $('#creditCardInfo').show();
+                    break;
+                case 'Transferencia Bancaria':
+                    $('#sinpeInfo').show();
+                    break;
+                case 'Dinero Disponible':
+                    $('#availableMoney').show();
+                    break;
+            }
+        });
+    });
+</script>

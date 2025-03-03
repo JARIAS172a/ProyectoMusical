@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj": {}
+    "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj": {
+    "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
+        "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\obj\\",
+        "outputPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",

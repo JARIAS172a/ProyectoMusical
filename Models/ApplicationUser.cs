@@ -10,16 +10,14 @@ namespace Models
 {
 	public class ApplicationUser : IdentityUser
 	{
-		[Required(ErrorMessage = "El nombre es obligatorio")]
-		public string Nombre { get; set; }
+        public string? NumeroIdentificacion { get; set; }
+        public string? NombreCompleto { get; set; }
+        public string? Genero { get; set; }
+        public string? CorreoElectronico { get; set; }
+        public string? TipoTarjeta { get; set; }
+        public decimal DineroDisponible { get; set; }
+        public string? NumeroTarjeta { get; set; }
 
-		[Required(ErrorMessage = "La dirección es obligatoria")]
-		public string Direccion { get; set; }
 
-		[Required(ErrorMessage = "La ciudad es obligatoria")]
-		public string Ciudad { get; set; }
-
-		[Required(ErrorMessage = "El pais es obligatorio")]
-		public string Pais { get; set; }
-	}
+    }
 }

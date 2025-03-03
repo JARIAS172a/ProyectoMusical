@@ -14,15 +14,17 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Models;
+using System.Data.SqlTypes;
 
 namespace ProyectoVentaMusical.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<ApplicationUser> signInManager, ILogger<LoginModel> logger)
         {
             _signInManager = signInManager;
             _logger = logger;
@@ -101,6 +103,56 @@ namespace ProyectoVentaMusical.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
         }
 
+        //public async Task<IActionResult> OnPostAsync(string returnUrl = null)
+        //{
+        //    returnUrl ??= Url.Content("~/");
+
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return Page();
+        //    }
+
+        //    _logger.LogInformation("Starting manual login process for email: {Email}", Input.Email);
+
+        //    // Busca el usuario por el correo electrónico primero
+        //    var user = await _signInManager.UserManager.FindByEmailAsync(Input.Email);
+        //    if (user == null)
+        //    {
+        //        _logger.LogWarning("Login attempt failed: user not found with email {Email}", Input.Email);
+        //        ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+        //        return Page();
+        //    }
+
+        //    // Verifica si la cuenta del usuario está bloqueada
+        //    if (await _signInManager.UserManager.IsLockedOutAsync(user))
+        //    {
+        //        _logger.LogWarning("User account is locked out.");
+        //        return RedirectToPage("./Lockout");
+        //    }
+
+        //    // Verifica la contraseña
+        //    var passwordCheck = await _signInManager.UserManager.CheckPasswordAsync(user, Input.Password);
+        //    if (!passwordCheck)
+        //    {
+        //        _logger.LogWarning("Invalid password attempt for user {Email}", Input.Email);
+        //        // Opcional: Incrementa el contador de intentos fallidos de inicio de sesión
+        //        await _signInManager.UserManager.AccessFailedAsync(user);
+
+        //        ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+        //        return Page();
+        //    }
+
+        //    // Reinicia el contador de intentos fallidos
+        //    await _signInManager.UserManager.ResetAccessFailedCountAsync(user);
+
+        //    // Inicia sesión del usuario
+        //    await _signInManager.SignInAsync(user, Input.RememberMe);
+        //    _logger.LogInformation("User {Email} logged in successfully.", Input.Email);
+
+        //    return LocalRedirect(returnUrl);
+        //}
+
+
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
@@ -136,5 +188,6 @@ namespace ProyectoVentaMusical.Areas.Identity.Pages.Account
             // If we got this far, something failed, redisplay form
             return Page();
         }
+
     }
 }

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Models.Data
 {
-    public partial class ApplicationDbContext : IdentityDbContext<IdentityUser, IdentityRole, string>
+    public partial class ApplicationDbContext : IdentityDbContext<ApplicationUser, IdentityRole, string>
     {
         public ApplicationDbContext()
         {
@@ -27,6 +27,7 @@ namespace Models.Data
         public virtual DbSet<Perfiles> Perfiles { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
         public virtual DbSet<Ventas> Ventas { get; set; }
+        public DbSet<ApplicationUser> applicationUsers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -88,7 +89,7 @@ namespace Models.Data
 
             // Si deseas agregar configuración adicional a las tablas de Identity puedes hacerlo.
             // En este ejemplo solo se configuran algunos índices y tamaños para IdentityUser.
-            modelBuilder.Entity<IdentityUser>(entity =>
+            modelBuilder.Entity<ApplicationUser>(entity =>
             {
                 entity.HasIndex(e => e.NormalizedEmail)
                       .HasDatabaseName("EmailIndex");

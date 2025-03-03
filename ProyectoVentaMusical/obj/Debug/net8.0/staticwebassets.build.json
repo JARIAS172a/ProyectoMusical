@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zU4Fp6VKhLZjJ8u+jtNQ/RL44aj9n3KSo21xfZTb3z8=",
+  "Hash": "FLklM3BE87rYeIUt6PEJTHOIhmGkrEtsz8IVU6kMNPM=",
   "Source": "ProyectoVentaMusical",
   "BasePath": "_content/ProyectoVentaMusical",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ProyectoVentaMusical\\wwwroot",
       "Source": "ProyectoVentaMusical",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProyectoVentaMusical.styles.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProyectoVentaMusical.styles.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "ProyectoVentaMusical.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProyectoVentaMusical.styles.css"
+      "OriginalItemSpec": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProyectoVentaMusical.styles.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoVentaMusical.bundle.scp.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoVentaMusical.bundle.scp.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "ProyectoVentaMusical.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoVentaMusical.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProyectoVentaMusical.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\css\\site.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\favicon.ico",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\192b3103-08f1-430d-8de0-005cb9469483.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\192b3103-08f1-430d-8de0-005cb9469483.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/192b3103-08f1-430d-8de0-005cb9469483.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\192b3103-08f1-430d-8de0-005cb9469483.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\22ca3eec-08b6-4cc0-afe9-5ed796e6bed4.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\22ca3eec-08b6-4cc0-afe9-5ed796e6bed4.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/22ca3eec-08b6-4cc0-afe9-5ed796e6bed4.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\22ca3eec-08b6-4cc0-afe9-5ed796e6bed4.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\5338f9da-cd41-4b94-a3db-02d12c570216.png",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\5338f9da-cd41-4b94-a3db-02d12c570216.png",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/5338f9da-cd41-4b94-a3db-02d12c570216.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\5338f9da-cd41-4b94-a3db-02d12c570216.png"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\7acda736-a618-40df-ab0c-0a2907d89da9.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\7acda736-a618-40df-ab0c-0a2907d89da9.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/7acda736-a618-40df-ab0c-0a2907d89da9.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\7acda736-a618-40df-ab0c-0a2907d89da9.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\9041706f-f145-405b-b6dd-1fd08a5c21c3.png",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\9041706f-f145-405b-b6dd-1fd08a5c21c3.png",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/9041706f-f145-405b-b6dd-1fd08a5c21c3.png",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\9041706f-f145-405b-b6dd-1fd08a5c21c3.png"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\ab417629-588a-4c8d-ba38-0245494f7b97.png",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\ab417629-588a-4c8d-ba38-0245494f7b97.png",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/ab417629-588a-4c8d-ba38-0245494f7b97.png",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\ab417629-588a-4c8d-ba38-0245494f7b97.png"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\d3c12832-e128-44d4-b3d0-8922b1e771eb.png",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\albumes\\d3c12832-e128-44d4-b3d0-8922b1e771eb.png",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/albumes/d3c12832-e128-44d4-b3d0-8922b1e771eb.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\albumes\\d3c12832-e128-44d4-b3d0-8922b1e771eb.png"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/artistas/2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\7bc2f42a-03ac-402a-bb98-6a2f877f880f.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\7bc2f42a-03ac-402a-bb98-6a2f877f880f.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/artistas/7bc2f42a-03ac-402a-bb98-6a2f877f880f.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\7bc2f42a-03ac-402a-bb98-6a2f877f880f.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\8876041f-e184-4005-94c8-4e35ecbe98d1.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\8876041f-e184-4005-94c8-4e35ecbe98d1.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/artistas/8876041f-e184-4005-94c8-4e35ecbe98d1.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\8876041f-e184-4005-94c8-4e35ecbe98d1.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\a1a7da3a-1656-473b-a7dd-aae70abb5d99.png",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\a1a7da3a-1656-473b-a7dd-aae70abb5d99.png",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/artistas/a1a7da3a-1656-473b-a7dd-aae70abb5d99.png",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\a1a7da3a-1656-473b-a7dd-aae70abb5d99.png"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\a3a167a9-a57c-408d-b60c-6d87a74ccbe9.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\a3a167a9-a57c-408d-b60c-6d87a74ccbe9.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/artistas/a3a167a9-a57c-408d-b60c-6d87a74ccbe9.jpg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\a3a167a9-a57c-408d-b60c-6d87a74ccbe9.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\f855cab5-7a0e-4ca9-9ee0-122da125bf9b.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\f855cab5-7a0e-4ca9-9ee0-122da125bf9b.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/artistas/f855cab5-7a0e-4ca9-9ee0-122da125bf9b.jpg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\f855cab5-7a0e-4ca9-9ee0-122da125bf9b.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\artistas\\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/artistas/f9d57212-3320-403b-ad73-ec8aa8350f27.jpg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\artistas\\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\0c2c28b7-d645-44ab-806b-79eaf40c62fe.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\0c2c28b7-d645-44ab-806b-79eaf40c62fe.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/0c2c28b7-d645-44ab-806b-79eaf40c62fe.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\0c2c28b7-d645-44ab-806b-79eaf40c62fe.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\3646ad36-5078-41d9-b75e-e0530251bf1b.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\3646ad36-5078-41d9-b75e-e0530251bf1b.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/3646ad36-5078-41d9-b75e-e0530251bf1b.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\3646ad36-5078-41d9-b75e-e0530251bf1b.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\630ebab8-3404-465a-b241-10214e76f034.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\630ebab8-3404-465a-b241-10214e76f034.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/630ebab8-3404-465a-b241-10214e76f034.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\630ebab8-3404-465a-b241-10214e76f034.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\87de116d-dc82-4227-ab78-4f19419fa866.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\87de116d-dc82-4227-ab78-4f19419fa866.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/87de116d-dc82-4227-ab78-4f19419fa866.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\87de116d-dc82-4227-ab78-4f19419fa866.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\b318d35a-7343-4825-ba2d-f18fc6a10424.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\b318d35a-7343-4825-ba2d-f18fc6a10424.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/b318d35a-7343-4825-ba2d-f18fc6a10424.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\b318d35a-7343-4825-ba2d-f18fc6a10424.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/canciones/cc5a73f9-6a26-43c1-9213-195b27f46152.jpg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\canciones\\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\generos\\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\generos\\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/generos/4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generos\\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\generos\\e894108a-b601-4293-9de2-8ffff3ebc4d0.jpg",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\imagenes\\generos\\e894108a-b601-4293-9de2-8ffff3ebc4d0.jpg",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "imagenes/generos/e894108a-b601-4293-9de2-8ffff3ebc4d0.jpg",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\generos\\e894108a-b601-4293-9de2-8ffff3ebc4d0.jpg"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\albumes.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\js\\albumes.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "js/albumes.js",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\js\\albumes.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "js/artistas.js",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\js\\artistas.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\canciones.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\js\\canciones.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "js/canciones.js",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\canciones.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\comprar.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\js\\comprar.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "js/comprar.js",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\js\\comprar.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\generos.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\js\\generos.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "js/generos.js",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\js\\generos.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\js\\site.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\js\\usuario.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\js\\usuario.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "js/usuario.js",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\js\\usuario.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2886,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2905,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ProyectoVentaMusical",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\wwwroot\\",
+      "ContentRoot": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\wwwroot\\",
       "BasePath": "_content/ProyectoVentaMusical",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

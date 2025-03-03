@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj": {}
+    "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj": {
+    "D:\\Desktop\\ProyectoVentaMusical - Copy\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical - Copy\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj",
+        "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\AccesoDatos\\AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\obj\\",
+        "outputPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj": {
-                "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj"
+              "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj": {
+                "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj"
               },
-              "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj": {
-                "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj"
+              "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\Utilidades.csproj": {
+                "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\Utilidades.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj": {
+    "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
+        "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\obj\\",
+        "outputPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,14 +163,14 @@
         }
       }
     },
-    "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj": {
+    "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj",
+        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj",
         "projectName": "ProyectoVentaMusical",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj",
+        "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\ProyectoVentaMusical.csproj",
         "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\ProyectoVentaMusical\\obj\\",
+        "outputPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\ProyectoVentaMusical\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -188,8 +188,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj": {
-                "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj"
+              "D:\\Desktop\\ProyectoVentaMusical - Copy\\AccesoDatos\\AccesoDatos.csproj": {
+                "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\AccesoDatos\\AccesoDatos.csproj"
               }
             }
           }
@@ -257,14 +257,14 @@
         }
       }
     },
-    "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj": {
+    "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj",
+        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\Utilidades.csproj",
         "projectName": "Utilidades",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj",
+        "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\Utilidades.csproj",
         "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\obj\\",
+        "outputPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",

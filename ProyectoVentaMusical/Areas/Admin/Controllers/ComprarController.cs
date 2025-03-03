@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Models;
 using Models.Data;
 using Models.ViewModels;
 using System.Security.Claims;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ProyectoVentaMusical.Areas.Admin.Controllers
 {
@@ -13,9 +15,9 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public ComprarController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment, UserManager<IdentityUser> userManager)
+        public ComprarController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment, UserManager<ApplicationUser> userManager)
         {
             _context = context;
             _hostingEnvironment = hostingEnvironment;
@@ -44,41 +46,124 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> anadirACarrito(CarritoVM carritoVM)
         {
-            CarritoCompras _carrito = new CarritoCompras();
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
             var usuario = await _userManager.FindByIdAsync(userId);
-            if (usuario != null)
+
+            if (usuario == null)
             {
-                _carrito.IdUsuario = usuario.Id;
-                _carrito.NombreUsuario = usuario.UserName;
+                return NotFound("Usuario no encontrado.");
             }
 
-            _carrito.FechaCompra = DateTime.Now;
-            decimal cantidad = carritoVM.Cancion.CantidadDisponible;
-            decimal precio = carritoVM.Cancion.Precio;
-            decimal _subtotal = cantidad * precio;
-            _carrito.Subtotal = _subtotal;
-            _carrito.Total = _subtotal;
-            _carrito.TipoPago = carritoVM.CarritoCompras.TipoPago;
+            // Verifica si ya existe un carrito para este usuario
+            var carritoExistente = _context.CarritoCompras
+                                           .FirstOrDefault(c => c.IdUsuario == usuario.Id);
 
-            _context.CarritoCompras.Add(_carrito);
-            _context.SaveChanges();
+            if (carritoExistente == null)
+            {
+                // Crea un nuevo carrito si no existe
+                CarritoCompras nuevoCarrito = new CarritoCompras
+                {
+                    IdUsuario = usuario.Id,
+                    NombreUsuario = usuario.UserName,
+                    FechaCompra = DateTime.Now,
+                    TipoPago = carritoVM.CarritoCompras.TipoPago,
+                    Subtotal = 0,
+                    Total = 0
+                };
 
-            DetalleCarrito detalleCarrito = new DetalleCarrito();
-            int ultimoIdCarrito = _carrito.IdCarrito;
+                _context.CarritoCompras.Add(nuevoCarrito);
+                await _context.SaveChangesAsync();
+                carritoExistente = nuevoCarrito;
+            }
 
-            detalleCarrito.IdCarrito = ultimoIdCarrito;
-            detalleCarrito.CodigoCancion = carritoVM.Cancion.CodigoCancion;
-            detalleCarrito.Cantidad = carritoVM.Cancion.CantidadDisponible;
-            detalleCarrito.PrecioUnitario = carritoVM.Cancion.Precio;
-            detalleCarrito.Total = _subtotal;
-            _context.DetalleCarrito.Add(detalleCarrito);
-            _context.SaveChanges();
+            // Agrega un nuevo detalle de carrito
+            DetalleCarrito nuevoDetalle = new DetalleCarrito
+            {
+                IdCarrito = carritoExistente.IdCarrito,
+                CodigoCancion = carritoVM.Cancion.CodigoCancion,
+                Cantidad = carritoVM.Cancion.CantidadDisponible,
+                PrecioUnitario = carritoVM.Cancion.Precio,
+                Total = carritoVM.Cancion.CantidadDisponible * carritoVM.Cancion.Precio
+            };
 
+            _context.DetalleCarrito.Add(nuevoDetalle);
+
+            // Actualiza los totales del carrito
+            carritoExistente.Subtotal += nuevoDetalle.Total;
+            carritoExistente.Total += nuevoDetalle.Total; 
+
+            await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
         }
+
+
+
+        [HttpGet]
+        public async Task<IActionResult> CarritoCompras()
+        {
+            var userId = _userManager.GetUserId(User);
+
+            // Encontrar el carrito de compras para el usuario logueado
+
+            var carrito = _context.CarritoCompras.FirstOrDefault(c => c.IdUsuario == userId);
+
+            if (carrito == null)
+            {
+                ViewBag.Message = "Debes ingresar canciones a tu carrito de compras.";
+                return View();
+            }
+
+            var detalles = _context.DetalleCarrito
+                .Include(dc => dc.CodigoCancionNavigation)
+                .Where(dc => dc.IdCarrito == carrito.IdCarrito)
+                .ToList();
+
+            var canciones = detalles.Select(dc => dc.CodigoCancionNavigation).Distinct().ToList();
+
+            var viewModel = new CarritoMostrarVM
+            {
+                CarritoCompras = carrito,
+                DetalleCarrito = detalles,
+                ListaCanciones = canciones
+            };
+
+
+            return View(viewModel);
+
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CarritoCompras(int opcion)
+        {
+            //switch (payment)
+            //{
+            //    case "Tarjeta de Crédito":
+            //        // Lógica para procesar el pago con tarjeta
+            //        break;
+            //    case "Transferencia Bancaria":
+            //        // Lógica para procesar la transferencia
+            //        break;
+            //    case "Dinero Disponible":
+            //        // Lógica para verificar y usar el dinero disponible
+            //        break;
+            //}
+            return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Pagar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Pagar(int opcion)
+        {
+            return View();
+        }
+
 
     }
 }
