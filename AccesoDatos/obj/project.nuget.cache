@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PgmFzD7wqas=",
+  "dgSpecHash": "fpBWmHi0+yI=",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\AccesoDatos\\AccesoDatos.csproj",
+  "projectFilePath": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

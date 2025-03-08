@@ -5,7 +5,8 @@ $(document).ready(function () {
 
 
 function cargarDatatable() {
-    dataTable = $("#tblSongs").DataTable({
+    dataTable = $("#tblSongs").DataTable({  
+        "responsive" : true,
         "ajax": {
             "url": "/Admin/canciones/GetAll",
             "type": "GET",

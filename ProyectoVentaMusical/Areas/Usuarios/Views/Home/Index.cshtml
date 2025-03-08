@@ -13,8 +13,6 @@
         {
     <h1 class="mb-4 text-center">Lista de Canciones</h1>
     <div class="row">
-
-        
             @foreach (var cancion in Model)
             {
                 <div class="col-md-4 mb-4">
@@ -55,7 +53,9 @@
                                     </a>
                                     if (User.IsInRole(CNT.Usuario))
                                     {
-                                        <a href="@Url.Action("Comprar", "Comprar")" class="btn btn-outline-success text-center">Comprar</a>
+                                        <a href="@Url.Action("Index", "Comprar", new { area = "Admin" })" class="btn btn-outline-success text-center">Comprar</a>
+
+
                                     }
                                 }
                                 <br />

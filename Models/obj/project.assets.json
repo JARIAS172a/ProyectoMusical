@@ -706,11 +706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\Models.csproj",
+      "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Models\\obj\\",
+      "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",

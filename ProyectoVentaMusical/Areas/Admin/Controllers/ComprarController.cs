@@ -66,7 +66,7 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                     IdUsuario = usuario.Id,
                     NombreUsuario = usuario.UserName,
                     FechaCompra = DateTime.Now,
-                    TipoPago = carritoVM.CarritoCompras.TipoPago,
+                    TipoPago = "Tarjeta de Crédito", //carritoVM.CarritoCompras.TipoPago,
                     Subtotal = 0,
                     Total = 0
                 };
@@ -90,7 +90,7 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
 
             // Actualiza los totales del carrito
             carritoExistente.Subtotal += nuevoDetalle.Total;
-            carritoExistente.Total += nuevoDetalle.Total; 
+            carritoExistente.Total += nuevoDetalle.Total;
 
             await _context.SaveChangesAsync();
 
@@ -134,36 +134,132 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         }
 
 
-        [HttpPost]
-        public async Task<IActionResult> CarritoCompras(int opcion)
-        {
-            //switch (payment)
-            //{
-            //    case "Tarjeta de Crédito":
-            //        // Lógica para procesar el pago con tarjeta
-            //        break;
-            //    case "Transferencia Bancaria":
-            //        // Lógica para procesar la transferencia
-            //        break;
-            //    case "Dinero Disponible":
-            //        // Lógica para verificar y usar el dinero disponible
-            //        break;
-            //}
-            return View();
-        }
+        //[HttpPost]
+        //public async Task<IActionResult> CarritoCompras(int opcion)
+        //{
+
+        //    return View();
+        //}
 
         [HttpGet]
         public async Task<IActionResult> Pagar()
         {
-            return View();
+            var userId = _userManager.GetUserId(User);
+            var user = await _userManager.FindByIdAsync(userId);
+
+            //Encontrar la venta para el usuario logueado
+
+            var venta = _context.Ventas.FirstOrDefault(v => v.IdUsuario == userId);
+
+            if (venta == null)
+            {
+                ViewBag.Message = "Debes ingresar carritos de compra a tu venta";
+                return View();
+            }
+
+            var detalles = _context.DetalleVentas
+                .Include(dv => dv.CodigoCancionNavigation)
+                .Where(dv => dv.IdVenta == venta.IdVenta)
+                .ToList();
+
+            var canciones = detalles.Select(dv => dv.CodigoCancionNavigation).Distinct().ToList();
+
+            var viewModel = new VentaMostrarVM
+            {
+                VENTAS = venta,
+                DetalleVentas = detalles,
+                ListaCanciones = canciones
+            };
+
+            return View(viewModel);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Pagar(int opcion)
+        public async Task<IActionResult> ProcesarPago(VentaMostrarVM ventaVM)
         {
-            return View();
-        }
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var usuario = await _userManager.FindByIdAsync(userId);
 
+            if (usuario == null)
+            {
+                return NotFound("Usuario no encontrado.");
+            }
+
+            var carritoCompras = await _context.CarritoCompras
+                .FirstOrDefaultAsync(c => c.IdUsuario == usuario.Id);
+
+            if (carritoCompras == null)
+            {
+                return BadRequest("El carrito de compras está vacío.");
+            }
+
+            List<DetalleCarrito> LstDetalleCarritos = await _context.DetalleCarrito
+                .Where(d => d.IdCarrito == carritoCompras.IdCarrito)
+                .ToListAsync();
+
+            if (LstDetalleCarritos.Count == 0)
+            {
+                return BadRequest("No hay productos en el carrito.");
+            }
+
+            using (var transaction = await _context.Database.BeginTransactionAsync())
+            {
+                try
+                {
+                    // Crear nueva venta
+                    var ventaNueva = new Ventas()
+                    {
+                        IdUsuario = userId,
+                        FechaCompra = DateTime.Now,
+                        TipoPago = ventaVM.VENTAS.TipoPago,
+                        Subtotal = carritoCompras.Subtotal,
+                        Total = carritoCompras.Total
+                    };
+
+                    await _context.Ventas.AddAsync(ventaNueva);
+                    await _context.SaveChangesAsync(); // Guardar la venta primero para obtener el IdVenta
+
+                    // Crear lista de detalles de venta
+                    var listaDetalleVentas = new List<DetalleVentas>();
+
+                    foreach (var item in LstDetalleCarritos)
+                    {
+                        listaDetalleVentas.Add(new DetalleVentas()
+                        {
+                            IdVenta = ventaNueva.IdVenta,
+                            CodigoCancion = item.CodigoCancion,
+                            Cantidad = item.Cantidad,
+                            PrecioUnitario = item.PrecioUnitario,
+                            Total = item.Total
+                        });
+                    }
+
+                    // Guardar todos de una vez
+                    await _context.DetalleVentas.AddRangeAsync(listaDetalleVentas);
+                    await _context.SaveChangesAsync();
+
+                    // Si todo fue exitoso, confirmar la transacción y enviar json
+                    await transaction.CommitAsync();
+
+                    _context.RemoveRange(LstDetalleCarritos);
+                    await _context.SaveChangesAsync();
+
+                    _context.Remove(carritoCompras);
+                    await _context.SaveChangesAsync();
+
+                    return Json(new { success = true, message = "Pago Procesado con Éxito" });
+                }
+                catch (Exception ex)
+                {
+                    // Si hay un error, revertir la transacción
+                    await transaction.RollbackAsync();
+                    //return StatusCode(500, "Ocurrió un error al procesar el pago: " + ex.Message);
+                    return Json(new { success = false, message = "Error al procesar el pago: " + ex.Message });
+                }
+            }
+            //return RedirectToAction(nameof(Index));
+        }
 
     }
 }
+

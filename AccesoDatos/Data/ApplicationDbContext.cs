@@ -313,11 +313,11 @@ namespace Models.Data
                 entity.Property(e => e.Total)
                       .HasColumnType("decimal(10, 2)");
 
-                entity.HasOne(d => d.IdUsuarioNavigation)
-                      .WithMany(p => p.Venta)
-                      .HasForeignKey(d => d.IdUsuario)
-                      .OnDelete(DeleteBehavior.ClientSetNull)
-                      .HasConstraintName("FK__Ventas__IdUsuari__3D5E1FD2");
+                //entity.HasOne(d => d.IdUsuarioNavigation)
+                //      .WithMany(p => p.Venta)
+                //      .HasForeignKey(d => d.IdUsuario)
+                //      .OnDelete(DeleteBehavior.ClientSetNull)
+                //      .HasConstraintName("FK__Ventas__IdUsuari__3D5E1FD2");
             });
 
             OnModelCreatingPartial(modelBuilder);

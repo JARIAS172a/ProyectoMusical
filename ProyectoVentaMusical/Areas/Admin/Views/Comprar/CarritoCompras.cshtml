@@ -30,7 +30,7 @@
                             <input type="number" class="form-control" value="@item.Cantidad" min="1" onchange="actualizarCantidad(@item.IdDetalleCarrito, this.value)" />
                         </td>
                         <td>@item.PrecioUnitario.ToString("C")</td>
-                        <td>@($"${Math.Round(item.Cantidad * item.PrecioUnitario, 0)}")</td>
+                        <td>@($"₡{Math.Round(item.Cantidad * item.PrecioUnitario, 0)}")</td>
                         <td>
                             <button class="btn btn-danger" onclick="eliminarProducto(@item.IdDetalleCarrito)">Eliminar</button>
                         </td>
@@ -42,7 +42,7 @@
         <div>
             <p><strong>Total:</strong> @Model.DetalleCarrito.Sum(item => item.Cantidad * item.PrecioUnitario).ToString("C")</p>
             <button class="btn btn-success" onclick="window.location.href='@Url.Action("Pagar", "Comprar")'">Proceder al Pago</button>
-            <button class="btn btn-secondary" onclick="window.location.href='@Url.Action("Index", "Comprar")'">Seguir Comprando</button>
+            <button class="btn btn-primary" onclick="window.location.href='@Url.Action("Index", "Comprar")'">Seguir Comprando</button>
         </div>
     </div>
 

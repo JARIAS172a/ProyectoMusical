@@ -603,8 +603,9 @@ namespace ProyectoVentaMusical.Data.Migrations
                         .HasColumnType("datetime")
                         .HasDefaultValueSql("(getdate())");
 
-                    b.Property<int>("IdUsuario")
-                        .HasColumnType("int");
+                    b.Property<string>("IdUsuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Subtotal")
                         .HasColumnType("decimal(10, 2)");
@@ -618,10 +619,13 @@ namespace ProyectoVentaMusical.Data.Migrations
                     b.Property<decimal>("Total")
                         .HasColumnType("decimal(10, 2)");
 
+                    b.Property<int?>("UsuarioIdUsuario")
+                        .HasColumnType("int");
+
                     b.HasKey("IdVenta")
                         .HasName("PK__Ventas__BC1240BD0B8C9999");
 
-                    b.HasIndex("IdUsuario");
+                    b.HasIndex("UsuarioIdUsuario");
 
                     b.ToTable("Ventas");
                 });
@@ -765,13 +769,9 @@ namespace ProyectoVentaMusical.Data.Migrations
 
             modelBuilder.Entity("Models.Data.Ventas", b =>
                 {
-                    b.HasOne("Models.Data.Usuario", "IdUsuarioNavigation")
+                    b.HasOne("Models.Data.Usuario", null)
                         .WithMany("Venta")
-                        .HasForeignKey("IdUsuario")
-                        .IsRequired()
-                        .HasConstraintName("FK__Ventas__IdUsuari__3D5E1FD2");
-
-                    b.Navigation("IdUsuarioNavigation");
+                        .HasForeignKey("UsuarioIdUsuario");
                 });
 
             modelBuilder.Entity("Models.Data.Albumes", b =>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\Utilidades.csproj",
+      "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj",
       "projectName": "Utilidades",
-      "projectPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\Utilidades.csproj",
+      "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj",
       "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\ProyectoVentaMusical - Copy\\Utilidades\\obj\\",
+      "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
