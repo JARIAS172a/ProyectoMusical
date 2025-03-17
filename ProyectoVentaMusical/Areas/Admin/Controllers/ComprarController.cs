@@ -206,6 +206,7 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
             {
                 try
                 {
+
                     // Crear nueva venta
                     var ventaNueva = new Ventas()
                     {
@@ -221,6 +222,10 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
 
                     // Crear lista de detalles de venta
                     var listaDetalleVentas = new List<DetalleVentas>();
+                    var codigosCanciones = LstDetalleCarritos.Select(x => x.CodigoCancion).ToList();
+                    var canciones = await _context.Canciones
+                        .Where(c => codigosCanciones.Contains(c.CodigoCancion))
+                        .ToListAsync();
 
                     foreach (var item in LstDetalleCarritos)
                     {
@@ -232,11 +237,29 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                             PrecioUnitario = item.PrecioUnitario,
                             Total = item.Total
                         });
-                    }
+                        var cancion = canciones.FirstOrDefault(c => c.CodigoCancion == item.CodigoCancion);
+                        if (cancion != null)
+                        {
+                            if (cancion.CantidadDisponible >= item.Cantidad)
+                            {
+                                cancion.CantidadDisponible -= item.Cantidad;
+                            }
+                            else
+                            {
+                                return BadRequest($"Stock insuficiente para la canción {cancion.NombreCancion}");
+                            }
+                        }
 
+                    }
+                    // Guardar todos los cambios de las canciones en una sola operación
+                    _context.Canciones.UpdateRange(canciones);
+                    await _context.SaveChangesAsync();
                     // Guardar todos de una vez
                     await _context.DetalleVentas.AddRangeAsync(listaDetalleVentas);
                     await _context.SaveChangesAsync();
+
+
+
 
                     // Si todo fue exitoso, confirmar la transacción y enviar json
                     await transaction.CommitAsync();

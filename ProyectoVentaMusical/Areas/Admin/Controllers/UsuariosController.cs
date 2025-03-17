@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Models.Data;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Models;
 
 namespace ProyectoVentaMusical.Areas.Admin.Controllers
 {
@@ -8,13 +10,14 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
     public class UsuariosController : Controller
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
-
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public UsuariosController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment)
+        public UsuariosController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment, UserManager<ApplicationUser> userManager)
         {
             _context = context;
             _hostingEnvironment = hostingEnvironment;
+            _userManager = userManager;
         }
         public IActionResult Index()
         {
@@ -24,27 +27,36 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            return RedirectToPage("/Account/Register", new { area = "Identity" });
+
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(Usuario usuario)
-        {
-            //if (ModelState.IsValid)
-            //{
-                //Nuevo usuario
-                _context.Usuario.Add(usuario);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-            //}
-            //return View(usuario);
-        }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create(ApplicationUser usuario, string password)
+        //{
+        //    //Nuevo usuario
+        //    var result = await _userManager.CreateAsync(usuario, password);
+        //    if (result.Succeeded)
+        //    {
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    else
+        //    {
+        //        // 🔹 Si hay errores, los mostramos
+        //        foreach (var error in result.Errors)
+        //        {
+        //            ModelState.AddModelError("", error.Description);
+        //        }
+        //    }
+        //    return View(usuario);
+        //}
+
+
         [HttpGet]
-        public IActionResult Edit(int id)
+        public IActionResult Edit(string id)
         {
-            Usuario usuario = new Usuario();
-            usuario = _context.Usuario.FirstOrDefault(a => a.IdUsuario == id);
+            var usuario = _context.Users.FirstOrDefault(a => a.Id == id);
             if (usuario == null)
             {
                 return NotFound();
@@ -55,19 +67,39 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Usuario usuario)
+        public async Task<IActionResult> Edit(ApplicationUser usuario, string newPassword)
         {
-            var articuloDesdeBd = _context.Usuario.FirstOrDefault(a => a.IdUsuario == usuario.IdUsuario);
-            articuloDesdeBd.NumeroIdentificacion = usuario.NumeroIdentificacion;
-            articuloDesdeBd.NombreCompleto = usuario.NombreCompleto;
-            articuloDesdeBd.Genero = usuario.Genero;
-            articuloDesdeBd.CorreoElectronico = usuario.CorreoElectronico;
-            articuloDesdeBd.TipoTarjeta = usuario.TipoTarjeta;
-            articuloDesdeBd.DineroDisponible = usuario.DineroDisponible;
-            articuloDesdeBd.NumeroTarjeta = usuario.NumeroTarjeta;
-            articuloDesdeBd.Contraseña = usuario.Contraseña;
-            _context.SaveChanges();
+            var usuarioDesdeBd = await _userManager.FindByIdAsync(usuario.Id);
+            if (usuarioDesdeBd == null)
+            {
+                return NotFound();
+            }
 
+            // 🔹 Actualizamos los datos del usuario
+            usuarioDesdeBd.NumeroIdentificacion = usuario.NumeroIdentificacion;
+            usuarioDesdeBd.NombreCompleto = usuario.NombreCompleto;
+            usuarioDesdeBd.Genero = usuario.Genero;
+            usuarioDesdeBd.CorreoElectronico = usuario.CorreoElectronico;
+            usuarioDesdeBd.TipoTarjeta = usuario.TipoTarjeta;
+            usuarioDesdeBd.DineroDisponible = usuario.DineroDisponible;
+            usuarioDesdeBd.NumeroTarjeta = usuario.NumeroTarjeta;
+
+            if (!string.IsNullOrEmpty(newPassword))
+            {
+                var token = await _userManager.GeneratePasswordResetTokenAsync(usuarioDesdeBd);
+                var result = await _userManager.ResetPasswordAsync(usuarioDesdeBd, token, newPassword);
+
+                if (!result.Succeeded)
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                    return View(usuario);
+                }
+            }
+
+            await _userManager.UpdateAsync(usuarioDesdeBd);
             return RedirectToAction(nameof(Index));
         }
 
@@ -75,21 +107,22 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var usuarios = _context.Usuario.ToList();
+            var usuarios = _context.Users.ToList();
             return Json(new { data = usuarios });
         }
 
         [HttpDelete]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(string id)
         {
-            var objFromDb = _context.Usuario.Find(id);
+            var objFromDb = _context.Users.Find(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error borrando Usuario" });
             }
-            _context.Usuario.Remove(objFromDb);
+            _context.Users.Remove(objFromDb);
             _context.SaveChanges();
-            return Json(new { success = true, message = "Usuario Borrado Correctamente" });
+            return RedirectToAction(nameof(Index));
+            //return Json(new { success = true, message = "Usuario Borrado Correctamente" });
         }
         #endregion
     }

@@ -23,22 +23,21 @@
 
                     <ul class="navbar-nav flex-grow-1">
 
+
                         @if (User.IsInRole(CNT.Administrador))
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Desplegable de Opciones
+                                    Vistas
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Artistas</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Canciones</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comprar" asp-action="CarritoCompras">carrito Compras</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Generos" asp-action="Index">Generos Musicales</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Albumes" asp-action="Index">Albumes</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comprar" asp-action="Index">Comprar Canciones</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Venta de Canciones</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Historial de compras</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Administrar Artistas</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Administrar Canciones</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Generos" asp-action="Index">Administrar Generos Musicales</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">Administrar Usuarios</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Albumes" asp-action="Index">Administrar Albumes</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Administrar Venta de Canciones</a>
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Administrar Historial de compras</a>
                                 </div>
                             </li>
                         }
@@ -46,16 +45,9 @@
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Desplegable de Opciones
+                                    Opciones del Contador
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Artistas</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Canciones</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comprar" asp-action="CarritoCompras">carrito Compras</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Generos" asp-action="Index">Generos Musicales</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Albumes" asp-action="Index">Albumes</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comprar" asp-action="Index">Comprar Canciones</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Venta de Canciones</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Historial de compras</a>
                                 </div>
@@ -65,18 +57,11 @@
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Desplegable de Opciones
+                                    Opciones del Cliente
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Artistas" asp-action="Index">Artistas</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Canciones" asp-action="Index">Canciones</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comprar" asp-action="CarritoCompras">carrito Compras</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Generos" asp-action="Index">Generos Musicales</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Albumes" asp-action="Index">Albumes</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">                                   
+                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comprar" asp-action="CarritoCompras">Carrito Compras</a>
                                     <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Comprar" asp-action="Index">Comprar Canciones</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Venta de Canciones</a>
-                                    <a class="dropdown-item text-dark" asp-area="Admin" asp-controller="Home" asp-action="Index">Historial de compras</a>
                                 </div>
                             </li>
                         }
@@ -95,7 +80,7 @@
 
     <footer class="border-top footer text-muted text-center">
         <div class="container">
-            &copy; 2025 - ProyectoVentaMusical - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - ProyectoVentaMusical
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

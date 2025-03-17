@@ -12,18 +12,16 @@ function cargarDatatable() {
             "datatype": "json"
         },
         "columns": [
-            { "data": "idUsuario", "width": "5%" },
+            { "data": "id", "width": "5%" },
             { "data": "numeroIdentificacion", "width": "15%" },
             { "data": "nombreCompleto", "width": "15%" },
             { "data": "genero", "width": "15%" },
-            { "data": "correoElectronico", "width": "15%" },
+            { "data": "email", "width": "15%" },
             { "data": "tipoTarjeta", "width": "15%" },
             { "data": "dineroDisponible", "width": "15%" },
             { "data": "numeroTarjeta", "width": "15%" },
-            { "data": "contrase\u00F1a", "width": "15%" },
-            { "data": "idPerfil", "width": "15%" },
             {
-                "data": "idUsuario",
+                "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
                                 <a href="/Admin/Usuarios/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
@@ -66,13 +64,14 @@ function cargarDatatable() {
 
 function Delete(url) {
     swal({
-        title: "Esta seguro de borrar?",
-        text: "Este contenido no se puede recuperar!",
+        title: "¿Estás seguro de borrar?",
+        text: "Este contenido no se puede recuperar.",
         type: "warning",
         showCancelButton: true,
         confirmButtonColor: "#DD6B55",
-        confirmButtonText: "Si, borrar!",
-        closeOnconfirm: true
+        confirmButtonText: "Sí, borrar!",
+        cancelButtonText: "Cancelar",
+        closeOnConfirm: true
     }, function () {
         $.ajax({
             type: 'DELETE',
@@ -80,13 +79,22 @@ function Delete(url) {
             success: function (data) {
                 if (data.success) {
                     toastr.success(data.message);
-                    dataTable.ajax.reload();
-                }
-                else {
+
+                    // Asegurar que la tabla se recargue correctamente
+                    if (typeof dataTable !== 'undefined') {
+                        dataTable.ajax.reload();
+                    } else {
+                        location.reload(); // Como alternativa, recargar la página
+                    }
+                } else {
                     toastr.error(data.message);
                 }
+            },
+            error: function () {
+                toastr.error("Ocurrió un error inesperado.");
             }
         });
     });
 }
+
 

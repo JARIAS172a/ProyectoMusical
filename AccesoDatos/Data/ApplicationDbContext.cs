@@ -28,6 +28,7 @@ namespace Models.Data
         public virtual DbSet<Usuario> Usuario { get; set; }
         public virtual DbSet<Ventas> Ventas { get; set; }
         public DbSet<ApplicationUser> applicationUsers { get; set; }
+        //public virtual DbSet<AspNetUsers> AspNetUsers { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -1,4 +1,4 @@
-﻿@model Models.Data.Usuario
+﻿@model Models.ApplicationUser
 
 @{
     ViewData["Title"] = "Editar Artista";
@@ -8,7 +8,7 @@
 <br />
 <h3 class="text-center">Editar Artista</h3>
 <form method="POST" asp-action="Edit" enctype="multipart/form-data">
-    <input type="hidden" asp-for="IdUsuario" />
+    <input type="hidden" asp-for="Id" />
     <div class="row px-2 border">
         <div asp-validation-summary="All" class="text-danger"></div>
 
@@ -62,8 +62,6 @@
             </div>
         </div>
 
-        <br />
-
         <div class="form-group row col-10 offset-1 mt-4">
             <div class="col-4">
                 <label asp-for="TipoTarjeta"></label>
@@ -71,9 +69,9 @@
             <div class="col-8">
                 <select asp-for="TipoTarjeta" class="form-control">
                     <option value="">Seleccione un Tipo de targeta</option>
-                    <option value="Visa">Visa</option>
-                    <option value="MasterCard">Mastercard</option>
-                    <option value="AmericanExpress">American Express</option>
+                    <option value="VISA">Visa</option>
+                    <option value="MASTERCARD">Mastercard</option>
+                    <option value="AMERICAN EXPRESS">American Express</option>
                 </select>
                 <span asp-validation-for="TipoTarjeta" class="text-danger"></span>
             </div>
@@ -104,7 +102,7 @@
         </div>
 
         <br />
-
+@* 
         <div class="form-group row col-10 offset-1 mt-4">
             <div class="col-4">
                 <label asp-for="Contraseña"></label>
@@ -130,7 +128,7 @@
                 </select>
                 <span asp-validation-for="IdPerfil" class="text-danger"></span>
             </div>
-        </div>
+        </div> *@
 
         <br />
         <br />

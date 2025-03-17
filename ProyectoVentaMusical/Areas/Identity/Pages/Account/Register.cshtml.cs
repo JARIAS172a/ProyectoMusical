@@ -137,6 +137,14 @@ namespace ProyectoVentaMusical.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
+                user.NumeroIdentificacion = Input.NumeroIdentificacion;
+                user.NombreCompleto = Input.NombreCompleto;
+                user.Genero = Input.Genero;
+                user.TipoTarjeta = Input.TipoTarjeta;
+                user.DineroDisponible = Input.DineroDisponible;
+                user.NumeroTarjeta = Input.NumeroTarjeta;
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)

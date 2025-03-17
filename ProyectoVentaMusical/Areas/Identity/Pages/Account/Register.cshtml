@@ -9,7 +9,6 @@
     <h1 class="text-center mb-4">@ViewData["Title"]</h1>
 
     <div class="row justify-content-center">
-        <!-- Formulario de Registro -->
         <div class="col-md-6">
             <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="card p-4 shadow">
                 <h2 class="h4 mb-3">Crear nueva cuenta</h2>
@@ -20,17 +19,27 @@
                 <!-- Sección: Información Básica -->
                 <div class="mb-4">
                     <h3 class="h5 mb-3">📝 Información Básica</h3>
-
-                    @* <div class="form-floating mb-3">
-                    <input asp-for="Input.UserName" class="form-control"
-                    placeholder="Nombre de usuario" autocomplete="username" />
-                    <label asp-for="Input.UserName">Nombre de Usuario</label>
-                    <span asp-validation-for="Input.UserName" class="text-danger small"></span>
-                    </div> *@
-
                     <div class="form-floating mb-3">
-                        <input asp-for="Input.Email" class="form-control"
-                               placeholder="name@example.com" autocomplete="email" />
+                        <input asp-for="Input.NumeroIdentificacion" class="form-control" placeholder="Número de Identificación" />
+                        <label asp-for="Input.NumeroIdentificacion">Número de Identificación</label>
+                        <span asp-validation-for="Input.NumeroIdentificacion" class="text-danger small"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.NombreCompleto" class="form-control" placeholder="Nombre Completo" required />
+                        <label asp-for="Input.NombreCompleto">Nombre Completo</label>
+                        <span asp-validation-for="Input.NombreCompleto" class="text-danger small"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <select asp-for="Input.Genero" class="form-select" required>
+                            <option value="" disabled selected>Seleccione su género</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                        </select>
+                        <label asp-for="Input.Genero">Género</label>
+                        <span asp-validation-for="Input.Genero" class="text-danger small"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" placeholder="Correo Electrónico" autocomplete="email" required />
                         <label asp-for="Input.Email">Correo Electrónico</label>
                         <span asp-validation-for="Input.Email" class="text-danger small"></span>
                     </div>
@@ -39,91 +48,66 @@
                 <!-- Sección: Seguridad -->
                 <div class="mb-4">
                     <h3 class="h5 mb-3">🔐 Seguridad</h3>
-
                     <div class="form-floating mb-3">
-                        <input asp-for="Input.Password" class="form-control"
-                               placeholder="Contraseña" autocomplete="new-password" />
+                        <input asp-for="Input.Password" class="form-control" placeholder="Contraseña" autocomplete="new-password" required />
                         <label asp-for="Input.Password">Contraseña</label>
                         <span asp-validation-for="Input.Password" class="text-danger small"></span>
                     </div>
-
                     <div class="form-floating mb-3">
-                        <input asp-for="Input.ConfirmPassword" class="form-control"
-                               placeholder="Confirmar contraseña" autocomplete="new-password" />
+                        <input asp-for="Input.ConfirmPassword" class="form-control" placeholder="Confirmar contraseña" autocomplete="new-password" required />
                         <label asp-for="Input.ConfirmPassword">Confirmar Contraseña</label>
                         <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
                     </div>
                 </div>
 
-                <!-- Sección: Roles (Solo para Administradores) -->
-                @*  @if (User.IsInRole(CNT.Administrador))
-                { *@
+                <!-- Sección: Información Financiera -->
                 <div class="mb-4">
-                    <h3 class="h5 mb-3">👥 Asignación de Rol</h3>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="radUsuarioRole"
-                                   value="@CNT.Administrador" id="rolAdmin" />
-                            <label class="form-check-label" for="rolAdmin">@CNT.Administrador</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="radUsuarioRole"
-                                   value="@CNT.Contador" id="rolContador" />
-                            <label class="form-check-label" for="rolContador">@CNT.Contador</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="radUsuarioRole"
-                                   value="@CNT.Usuario" id="rolUsuario" />
-                            <label class="form-check-label" for="rolUsuario">@CNT.Usuario</label>
-                        </div>
-                    </div>
-                </div>
-                @* } *@
-
-                <div class="mb-4">
-                    <h3 class="h5 mb-3">📇 Información Adicional</h3>
-
+                    <h3 class="h5 mb-3">💳 Información Financiera</h3>                    
                     <div class="form-floating mb-3">
-                        <input asp-for="Input.NumeroIdentificacion" class="form-control" placeholder="Número de Identificación" />
-                        <label asp-for="Input.NumeroIdentificacion">Número de Identificación</label>
-                        <span asp-validation-for="Input.NumeroIdentificacion" class="text-danger small"></span>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input asp-for="Input.NombreCompleto" class="form-control" placeholder="Nombre Completo" />
-                        <label asp-for="Input.NombreCompleto">Nombre Completo</label>
-                        <span asp-validation-for="Input.NombreCompleto" class="text-danger small"></span>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input asp-for="Input.Genero" class="form-control" placeholder="Género" />
-                        <label asp-for="Input.Genero">Género</label>
-                        <span asp-validation-for="Input.Genero" class="text-danger small"></span>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input asp-for="Input.CorreoElectronico" class="form-control" placeholder="Correo Electrónico" />
-                        <label asp-for="Input.CorreoElectronico">Correo Electrónico</label>
-                        <span asp-validation-for="Input.CorreoElectronico" class="text-danger small"></span>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input asp-for="Input.TipoTarjeta" class="form-control" placeholder="Tipo de Tarjeta" />
-                        <label asp-for="Input.TipoTarjeta">Tipo de Tarjeta</label>
+                        <select asp-for="Input.TipoTarjeta" class="form-select" required>
+                            <option value="" disabled selected>Seleccione su Tipo de tarjeta</option>
+                            <option value="VISA">VISA</option>
+                            <option value="MASTERCARD">MASTERCARD</option>
+                            <option value="AMERICAN EXPRESS">AMERICAN EXPRESS</option>
+                        </select>
+                        <label asp-for="Input.TipoTarjeta">Tipo Tarjeta</label>
                         <span asp-validation-for="Input.TipoTarjeta" class="text-danger small"></span>
                     </div>
-
                     <div class="form-floating mb-3">
-                        <input asp-for="Input.DineroDisponible" class="form-control" placeholder="Dinero Disponible" />
-                        <label asp-for="Input.DineroDisponible">Dinero Disponible</label>
-                        <span asp-validation-for="Input.DineroDisponible" class="text-danger small"></span>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <input asp-for="Input.NumeroTarjeta" class="form-control" placeholder="Número de Tarjeta" />
+                        <input asp-for="Input.NumeroTarjeta" class="form-control" placeholder="Número de Tarjeta" required />
                         <label asp-for="Input.NumeroTarjeta">Número de Tarjeta</label>
                         <span asp-validation-for="Input.NumeroTarjeta" class="text-danger small"></span>
                     </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.DineroDisponible" class="form-control" placeholder="Dinero Disponible" required />
+                        <label asp-for="Input.DineroDisponible">Dinero Disponible</label>
+                        <span asp-validation-for="Input.DineroDisponible" class="text-danger small"></span>
+                    </div>
                 </div>
+
+                <!-- Sección: Roles (Solo para Administradores) -->
+                @if (User.IsInRole(CNT.Administrador))
+                {
+                    <div class="mb-4">
+                        <h3 class="h5 mb-3">👥 Asignación de Rol</h3>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radUsuarioRole" value="@CNT.Administrador" id="rolAdmin" required />
+                                <label class="form-check-label" for="rolAdmin">@CNT.Administrador</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radUsuarioRole" value="@CNT.Contador" id="rolContador" required />
+                                <label class="form-check-label" for="rolContador">@CNT.Contador</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radUsuarioRole" value="@CNT.Usuario" id="rolUsuario" required />
+                                <label class="form-check-label" for="rolUsuario">@CNT.Usuario</label>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
 
                 <button type="submit" class="btn btn-primary btn-lg w-100 mt-3">
                     🚀 Registrar Usuario
