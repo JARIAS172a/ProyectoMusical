@@ -45,3 +45,15 @@ C:\Users\sebas\OneDrive - Universidad Americana Uam SRL\Documentos\GitHub\Proyec
 C:\Users\sebas\OneDrive - Universidad Americana Uam SRL\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\refint\Utilidades.dll
 C:\Users\sebas\OneDrive - Universidad Americana Uam SRL\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.pdb
 C:\Users\sebas\OneDrive - Universidad Americana Uam SRL\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\ref\Utilidades.dll
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\bin\Debug\net8.0\Utilidades.deps.json
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\bin\Debug\net8.0\Utilidades.dll
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\bin\Debug\net8.0\Utilidades.pdb
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfoInputs.cache
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.AssemblyInfo.cs
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.sourcelink.json
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.dll
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\refint\Utilidades.dll
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\Utilidades.pdb
+C:\Users\sebas\Documentos\GitHub\ProyectoMusical\Utilidades\obj\Debug\net8.0\ref\Utilidades.dll

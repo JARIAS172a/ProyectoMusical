@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4a1z9z8Djo8=",
+  "dgSpecHash": "lV7/dWt+huY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\AccesoDatos\\AccesoDatos.csproj",
+  "projectFilePath": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\AccesoDatos\\AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

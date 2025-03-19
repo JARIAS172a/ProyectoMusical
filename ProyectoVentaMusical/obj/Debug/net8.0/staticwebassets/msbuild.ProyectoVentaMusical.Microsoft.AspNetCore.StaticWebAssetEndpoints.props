@@ -340,13 +340,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\artistas.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bM/yu70bmmFLstNjBUkcaJR1eKtuQ8nh91CgNLQcVUU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3497"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bM/yu70bmmFLstNjBUkcaJR1eKtuQ8nh91CgNLQcVUU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 19:30:47 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3497"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bM/yu70bmmFLstNjBUkcaJR1eKtuQ8nh91CgNLQcVUU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 20:08:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProyectoVentaMusical/js/artistas.wbox291zit.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\artistas.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wbox291zit"},{"Name":"integrity","Value":"sha256-bM/yu70bmmFLstNjBUkcaJR1eKtuQ8nh91CgNLQcVUU="},{"Name":"label","Value":"_content/ProyectoVentaMusical/js/artistas.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3497"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bM/yu70bmmFLstNjBUkcaJR1eKtuQ8nh91CgNLQcVUU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Feb 2025 19:30:47 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3497"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bM/yu70bmmFLstNjBUkcaJR1eKtuQ8nh91CgNLQcVUU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 20:08:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ProyectoVentaMusical/js/canciones.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\canciones.js'))</AssetFile>
