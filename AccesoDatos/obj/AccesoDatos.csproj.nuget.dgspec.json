@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj": {}
+    "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\AccesoDatos\\AccesoDatos.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\AccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\AccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\AccesoDatos\\AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VS Code SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj": {
-                "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj"
+              "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Models\\Models.csproj"
               },
-              "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj": {
-                "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj"
+              "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Utilidades\\Utilidades.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Utilidades\\Utilidades.csproj"
               }
             }
           }
@@ -47,7 +50,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -88,21 +92,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj": {
+    "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\Models\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VS Code SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,7 +118,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,7 +135,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -159,21 +167,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj": {
+    "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Utilidades\\Utilidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Utilidades\\Utilidades.csproj",
         "projectName": "Utilidades",
-        "projectPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\Utilidades.csproj",
-        "packagesPath": "C:\\Users\\JOSUE ARIAS\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\ProyectoVentaMusical\\Utilidades\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Utilidades\\Utilidades.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive - Universidad Americana Uam SRL\\Documentos\\GitHub\\ProyectoMusical\\Utilidades\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VS Code SDK\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\JOSUE ARIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,7 +193,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -199,7 +210,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -220,7 +232,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
