@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Models.Data;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace ProyectoVentaMusical.Areas.Admin.Controllers
 {
@@ -148,14 +149,26 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _context.Artistas.Find(id);
-            if (objFromDb == null)
+            var artista = _context.Artistas
+                .Include(a => a.Albumes)
+                .FirstOrDefault(a => a.CodigoArtista == id);
+            if (artista == null)
             {
                 return Json(new { success = false, message = "Error borrando artista" });
             }
-            _context.Artistas.Remove(objFromDb);
+
+            if (artista.Albumes.Any())
+            {
+                return Json(new 
+                { 
+                    success = false, 
+                    message = "No se puede eliminar el artista porque tiene álbumes asociados." 
+                });                
+            }
+            _context.Artistas.Remove(artista);
             _context.SaveChanges();
-            return Json(new { success = true, message = "Artista Borrada Correctamente" });
+
+            return Json(new { success = true, message = "Artista Eliminado Correctamente" });
         }
         #endregion
     }

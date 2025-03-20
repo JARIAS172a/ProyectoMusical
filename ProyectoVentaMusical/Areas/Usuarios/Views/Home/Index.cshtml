@@ -37,15 +37,15 @@
                                     </div>
                                 </div>
 
-                                <!-- Tarjeta: Administración de Canciones -->
+                                <!-- Tarjeta: Administración de Álbumes -->
                                 <div class="mb-4">
                                     <div class="card shadow">
                                         <div class="card-body text-center">
                                             <h5 class="card-title">
-                                                <i class="fas fa-music"></i> Administración de Canciones
+                                                <i class="fas fa-record-vinyl"></i> Administración de Álbumes
                                             </h5>
-                                            <p class="card-text">Agrega, edita o elimina canciones.</p>
-                                            <a asp-area="Admin" asp-controller="Canciones" asp-action="Index" class="btn btn-success">Ir al Panel</a>
+                                            <p class="card-text">Crea y administra los álbumes musicales.</p>
+                                            <a asp-area="Admin" asp-controller="Albumes" asp-action="Index" class="btn btn-success">Ir al Panel</a>
                                         </div>
                                     </div>
                                 </div>
@@ -63,6 +63,19 @@
                                     </div>
                                 </div>
 
+                                <!-- Tarjeta: Administración de Canciones -->
+                                <div class="mb-4">
+                                    <div class="card shadow">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">
+                                                <i class="fas fa-music"></i> Administración de Canciones
+                                            </h5>
+                                            <p class="card-text">Agrega, edita o elimina canciones.</p>
+                                            <a asp-area="Admin" asp-controller="Canciones" asp-action="Index" class="btn btn-success">Ir al Panel</a>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <!-- Tarjeta: Administración de Usuarios -->
                                 <div class="mb-4">
                                     <div class="card shadow">
@@ -75,20 +88,7 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <!-- Tarjeta: Administración de Álbumes -->
-                                <div class="mb-4">
-                                    <div class="card shadow">
-                                        <div class="card-body text-center">
-                                            <h5 class="card-title">
-                                                <i class="fas fa-record-vinyl"></i> Administración de Álbumes
-                                            </h5>
-                                            <p class="card-text">Crea y administra los álbumes musicales.</p>
-                                            <a asp-area="Admin" asp-controller="Albumes" asp-action="Index" class="btn btn-success">Ir al Panel</a>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                
                                 <!-- Tarjeta: Administración de Venta de Canciones -->
                                 <div class="mb-4">
                                     <div class="card shadow">
@@ -114,10 +114,13 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+
                             <div class="card-footer text-center text-muted">
                                 Sistema de Gestión | ProyectoVentaMusical
                             </div>
+
                         </div>
                     </div>
                 </div>

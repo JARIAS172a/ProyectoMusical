@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Models.Data;
 using Models.ViewModels;
 using NuGet.ProjectModel;
@@ -82,45 +83,59 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                 Album = _context.Albumes.FirstOrDefault(a => a.CodigoAlbum == id),
                 ListaArtistas = _context.Artistas.ToList()
             };
-            
+
             return View(albumVM);
-    }
+        }
 
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult Edit(Albumes album)
-    {
-        //if (ModelState.IsValid)
-        //{
-        string rutaPrincipal = _hostingEnvironment.WebRootPath;
-        var archivos = HttpContext.Request.Form.Files;
-
-        var articuloDesdeBd = _context.Albumes.FirstOrDefault(a => a.CodigoAlbum == album.CodigoAlbum);
-
-
-        if (archivos.Count() > 0)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Albumes album)
         {
-            //Nuevo imagen para el artículo
-            string nombreArchivo = Guid.NewGuid().ToString();
-            var subidas = Path.Combine(rutaPrincipal, @"imagenes\albumes");
-            var extension = Path.GetExtension(archivos[0].FileName);
-            var nuevaExtension = Path.GetExtension(archivos[0].FileName);
+            //if (ModelState.IsValid)
+            //{
+            string rutaPrincipal = _hostingEnvironment.WebRootPath;
+            var archivos = HttpContext.Request.Form.Files;
 
-            var rutaImagen = Path.Combine(rutaPrincipal, articuloDesdeBd.ImagenAlbum.TrimStart('\\'));
+            var articuloDesdeBd = _context.Albumes.FirstOrDefault(a => a.CodigoAlbum == album.CodigoAlbum);
 
-            if (System.IO.File.Exists(rutaImagen))
+
+            if (archivos.Count() > 0)
             {
-                System.IO.File.Delete(rutaImagen);
-            }
+                //Nuevo imagen para el artículo
+                string nombreArchivo = Guid.NewGuid().ToString();
+                var subidas = Path.Combine(rutaPrincipal, @"imagenes\albumes");
+                var extension = Path.GetExtension(archivos[0].FileName);
+                var nuevaExtension = Path.GetExtension(archivos[0].FileName);
 
-            //Nuevamente subimos el archivo
-            using (var fileStreams = new FileStream(Path.Combine(subidas, nombreArchivo + extension), FileMode.Create))
+                var rutaImagen = Path.Combine(rutaPrincipal, articuloDesdeBd.ImagenAlbum.TrimStart('\\'));
+
+                if (System.IO.File.Exists(rutaImagen))
+                {
+                    System.IO.File.Delete(rutaImagen);
+                }
+
+                //Nuevamente subimos el archivo
+                using (var fileStreams = new FileStream(Path.Combine(subidas, nombreArchivo + extension), FileMode.Create))
+                {
+                    archivos[0].CopyTo(fileStreams);
+                }
+
+                album.ImagenAlbum = @"\imagenes\albumes\" + nombreArchivo + extension;
+
+
+                articuloDesdeBd.CodigoArtista = album.CodigoArtista;
+                articuloDesdeBd.NombreAlbum = album.NombreAlbum;
+                articuloDesdeBd.AñoLanzamiento = album.AñoLanzamiento;
+                articuloDesdeBd.ImagenAlbum = album.ImagenAlbum;
+                _context.SaveChanges();
+
+                return RedirectToAction(nameof(Index));
+            }
+            else
             {
-                archivos[0].CopyTo(fileStreams);
+                //Aquí sería cuando la imagen ya existe y se conserva
+                album.ImagenAlbum = articuloDesdeBd.ImagenAlbum;
             }
-
-            album.ImagenAlbum = @"\imagenes\albumes\" + nombreArchivo + extension;
-
 
             articuloDesdeBd.CodigoArtista = album.CodigoArtista;
             articuloDesdeBd.NombreAlbum = album.NombreAlbum;
@@ -129,44 +144,42 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
             _context.SaveChanges();
 
             return RedirectToAction(nameof(Index));
+
+            //}
         }
-        else
+
+        #region Llamadas a la API
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            //Aquí sería cuando la imagen ya existe y se conserva
-            album.ImagenAlbum = articuloDesdeBd.ImagenAlbum;
+            var albumes = _context.Albumes.ToList();
+            return Json(new { data = albumes });
         }
 
-        articuloDesdeBd.CodigoArtista = album.CodigoArtista;
-        articuloDesdeBd.NombreAlbum = album.NombreAlbum;
-        articuloDesdeBd.AñoLanzamiento = album.AñoLanzamiento;
-        articuloDesdeBd.ImagenAlbum = album.ImagenAlbum;
-        _context.SaveChanges();
-
-        return RedirectToAction(nameof(Index));
-
-        //}
-    }
-
-    #region Llamadas a la API
-    [HttpGet]
-    public IActionResult GetAll()
-    {
-        var albumes = _context.Albumes.ToList();
-        return Json(new { data = albumes });
-    }
-
-    [HttpDelete]
-    public IActionResult Delete(int id)
-    {
-        var objFromDb = _context.Albumes.Find(id);
-        if (objFromDb == null)
+        [HttpDelete]
+        public IActionResult Delete(int id)
         {
-            return Json(new { success = false, message = "Error borrando un album" });
+            var album = _context.Albumes
+                    .Include(a => a.Canciones)
+                    .FirstOrDefault(a => a.CodigoAlbum == id);
+            if (album == null)
+            {
+                return Json(new { success = false, message = "Error borrando un album" });
+            }
+
+            if (album.Canciones.Any())
+            {
+                return Json(new
+                {
+                    success = false,
+                    message = "No se puede eliminar el álbum porque tiene canciones asociadas."
+                });
+            }
+            _context.Albumes.Remove(album);
+            _context.SaveChanges();
+
+            return Json(new { success = true, message = "Album Borrado Correctamente" });
         }
-        _context.Albumes.Remove(objFromDb);
-        _context.SaveChanges();
-        return Json(new { success = true, message = "Album Borrado Correctamente" });
+        #endregion
     }
-    #endregion
-}
 }

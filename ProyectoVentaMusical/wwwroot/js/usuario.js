@@ -6,6 +6,7 @@ $(document).ready(function () {
 
 function cargarDatatable() {
     dataTable = $("#tblUsuarios").DataTable({
+        "responsive": true,
         "ajax": {
             "url": "/Admin/usuarios/GetAll",
             "type": "GET",
@@ -23,16 +24,8 @@ function cargarDatatable() {
             {
                 "data": "id",
                 "render": function (data) {
-                    return `<div class="text-center">
-                                <a href="/Admin/Usuarios/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
-                                    <i class="far fa-edit"></i> Editar
-                                </a>
-                                &nbsp;
-                                <a onclick=Delete("/Admin/Usuarios/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer; width:140px;">
-                                    <i class="far fa-trash-alt"></i> Borrar
-                                </a>
-                          </div>
-                         `;
+                    return `<button onclick="window.location.href='/Admin/Usuarios/Edit/${data}'" title="Editar" class="btn btn-success btn-sm btn-editar"><i class="fas fa-pen"></i></button>` +
+                        `<button onclick="Delete('/Admin/Usuarios/Delete/${data}')" title="Eliminar" class="btn btn-danger btn-sm ms-2"><i class="fas fa-trash"></i></button>`;
                 }, "width": "25%"
             }
         ],
@@ -72,26 +65,24 @@ function Delete(url) {
         confirmButtonText: "Sí, borrar!",
         cancelButtonText: "Cancelar",
         closeOnConfirm: true
-    }, function () {
+    },
+        function () {
         $.ajax({
             type: 'DELETE',
             url: url,
             success: function (data) {
+
+                swal.close();
                 if (data.success) {
                     toastr.success(data.message);
-
-                    // Asegurar que la tabla se recargue correctamente
-                    if (typeof dataTable !== 'undefined') {
-                        dataTable.ajax.reload();
-                    } else {
-                        location.reload(); // Como alternativa, recargar la página
-                    }
+                    dataTable.ajax.reload();
                 } else {
                     toastr.error(data.message);
                 }
             },
-            error: function () {
-                toastr.error("Ocurrió un error inesperado.");
+            error: function (xhr) {
+                swal.close();
+                toastr.error("Error en la solicitud: " + xhr.responseText);
             }
         });
     });

@@ -378,24 +378,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\630ebab8-3404-465a-b241-10214e76f034.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\87de116d-dc82-4227-ab78-4f19419fa866.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProyectoVentaMusical</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/canciones/87de116d-dc82-4227-ab78-4f19419fa866.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l59qh1a5ly</Fingerprint>
-      <Integrity>2eW771XFCAZx9SjuPSOlxnRF82B9VsBxdsMllTX4iv4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\87de116d-dc82-4227-ab78-4f19419fa866.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -450,6 +432,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\df9388ad-fcda-4438-975e-8957d9eef6ad.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/canciones/df9388ad-fcda-4438-975e-8957d9eef6ad.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>34jeid4yv2</Fingerprint>
+      <Integrity>vUFGgFI5rfiZOiMMPrlrpVuH6Sw08L3xDiwJPGQ8Zsg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\df9388ad-fcda-4438-975e-8957d9eef6ad.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -498,8 +498,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>og79lnklix</Fingerprint>
-      <Integrity>CP9Tfby4a3YkuaPp0WVe4KxoGMGBmBICon+BxZzOfGA=</Integrity>
+      <Fingerprint>egle1abn19</Fingerprint>
+      <Integrity>4iK/y4iUNp2VEINbgKfMuFzmcipUZfFtEE4W3kvQcv4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\albumes.js'))</OriginalItemSpec>
@@ -516,8 +516,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wbox291zit</Fingerprint>
-      <Integrity>bM/yu70bmmFLstNjBUkcaJR1eKtuQ8nh91CgNLQcVUU=</Integrity>
+      <Fingerprint>lwc8yyfr71</Fingerprint>
+      <Integrity>qzKLpCtKuw6JFkg7XIocWO5OmTYJhOHk80ghXkrZ4Ac=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\artistas.js'))</OriginalItemSpec>
@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v4fx2r93is</Fingerprint>
-      <Integrity>36gOU3b1SopddSotsXWqevPmV8bUEC1XNvMVfIYW8Q4=</Integrity>
+      <Fingerprint>onmcgn0jur</Fingerprint>
+      <Integrity>tIkAlOCeUSMeqEnOHU8KNizmwjvt9Gx6NehOCcn1NXc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\canciones.js'))</OriginalItemSpec>
@@ -570,8 +570,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lzlrwthkld</Fingerprint>
-      <Integrity>75PdpxjoOjawhVRvvrIB5HMFbp+qIKs28q0G3GLdC8A=</Integrity>
+      <Fingerprint>l6k6jhwb0z</Fingerprint>
+      <Integrity>rUL7VOz2KrozdXMbRDMGWnT5an/IA2xc2nJ1ri5E5+w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\generos.js'))</OriginalItemSpec>
@@ -624,8 +624,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>duoym8wswz</Fingerprint>
-      <Integrity>Rag+bp5OHJlgOHlrZ+vQzK+RxJvUEYt74f1/GzeTBJ8=</Integrity>
+      <Fingerprint>b41p79tjqh</Fingerprint>
+      <Integrity>FXOZPGMm36aoMPTGk7FFURlPJjvdYLZWGzQzy13cU/s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\usuario.js'))</OriginalItemSpec>

@@ -6,6 +6,7 @@ $(document).ready(function () {
 
 function cargarDatatable() {
     dataTable = $("#tblGeneros").DataTable({
+        "responsive": true,
         "ajax": {
             "url": "/Admin/generos/GetAll",
             "type": "GET",
@@ -28,16 +29,8 @@ function cargarDatatable() {
             {
                 "data": "codigoGenero",
                 "render": function (data) {
-                    return `<div class="text-center">
-                                <a href="/Admin/Generos/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
-                                    <i class="far fa-edit"></i> Editar
-                                </a>
-                                &nbsp;
-                                <a onclick=Delete("/Admin/Generos/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer; width:140px;">
-                                    <i class="far fa-trash-alt"></i> Borrar
-                                </a>
-                          </div>
-                         `;
+                    return `<button onclick="window.location.href='/Admin/Generos/Edit/${data}'" title="Editar" class="btn btn-success btn-sm btn-editar"><i class="fas fa-pen"></i></button>` +
+                        `<button onclick="Delete('/Admin/Generos/Delete/${data}')" title="Eliminar" class="btn btn-danger btn-sm ms-2"><i class="fas fa-trash"></i></button>`;
                 }, "width": "25%"
             }
         ],
@@ -75,12 +68,14 @@ function Delete(url) {
         showCancelButton: true,
         confirmButtonColor: "#DD6B55",
         confirmButtonText: "Si, borrar!",
-        closeOnconfirm: true
-    }, function () {
+        closeOnconfirm: false
+    },
+        function () {
         $.ajax({
             type: 'DELETE',
             url: url,
             success: function (data) {
+                swal.close();
                 if (data.success) {
                     toastr.success(data.message);
                     dataTable.ajax.reload();
@@ -88,6 +83,10 @@ function Delete(url) {
                 else {
                     toastr.error(data.message);
                 }
+            },
+            error: function (xhr) {
+                swal.close();
+                toastr.error("Error en la solicitud: " + xhr.responseText);
             }
         });
     });

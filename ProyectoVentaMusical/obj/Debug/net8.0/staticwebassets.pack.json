@@ -89,10 +89,6 @@
       "PackagePath": "staticwebassets\\imagenes\\canciones\\630ebab8-3404-465a-b241-10214e76f034.jpg"
     },
     {
-      "Id": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\87de116d-dc82-4227-ab78-4f19419fa866.jpg",
-      "PackagePath": "staticwebassets\\imagenes\\canciones\\87de116d-dc82-4227-ab78-4f19419fa866.jpg"
-    },
-    {
       "Id": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg",
       "PackagePath": "staticwebassets\\imagenes\\canciones\\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg"
     },
@@ -103,6 +99,10 @@
     {
       "Id": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg",
       "PackagePath": "staticwebassets\\imagenes\\canciones\\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\canciones\\df9388ad-fcda-4438-975e-8957d9eef6ad.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\canciones\\df9388ad-fcda-4438-975e-8957d9eef6ad.jpg"
     },
     {
       "Id": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\imagenes\\generos\\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg",

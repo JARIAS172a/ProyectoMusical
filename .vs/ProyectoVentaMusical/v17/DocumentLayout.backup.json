@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\admin\\views\\artistas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\views\\artistas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\wwwroot\\js\\artistas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\wwwroot\\js\\artistas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\wwwroot\\js\\usuario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\wwwroot\\js\\usuario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\admin\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\usuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\usuarios\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\admin\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\admin\\controllers\\cancionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\controllers\\cancionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\admin\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\controllers\\artistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\wwwroot\\js\\artistas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\wwwroot\\js\\artistas.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|c:\\users\\sebas\\documentos\\github\\proyectomusical\\proyectoventamusical\\areas\\admin\\views\\artistas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2CBF3ADC-3BBD-4CFC-B7F1-7D575F8146D3}|ProyectoVentaMusical\\ProyectoVentaMusical.csproj|solutionrelative:proyectoventamusical\\areas\\admin\\views\\artistas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,79 +70,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T16:44:12.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAWwDAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T22:41:50.025Z",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwHIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:54:49.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "artistas.js",
-              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
-              "RelativeDocumentMoniker": "ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
-              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
-              "RelativeToolTip": "ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "usuario.js",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\js\\usuario.js",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\wwwroot\\js\\usuario.js",
+              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\js\\usuario.js",
+              "RelativeToolTip": "ProyectoVentaMusical\\wwwroot\\js\\usuario.js",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-18T19:55:23.246Z",
+              "WhenOpened": "2025-03-20T21:54:46.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T21:54:56.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "7cd6e4a1-9365-4db0-add4-ad22b2e9edc1",
+        "Display": 1,
+        "X": 146,
+        "Y": 74,
+        "Width": 1140,
+        "Height": 532,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "artistas.js",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
+              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
+              "RelativeToolTip": "ProyectoVentaMusical\\wwwroot\\js\\artistas.js",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-20T19:10:37.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArtistasController.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\ArtistasController.cs",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\ArtistasController.cs",
+              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\ArtistasController.cs",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\ArtistasController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAuwJ8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:50:19.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Views\\Artistas\\Index.cshtml",
               "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Views\\Artistas\\Index.cshtml",
               "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Views\\Artistas\\Index.cshtml",
               "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Views\\Artistas\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwCAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-18T19:54:04.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Usuarios\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGsAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T19:18:06.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CancionesController.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\CancionesController.cs",
+              "RelativeDocumentMoniker": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\CancionesController.cs",
+              "ToolTip": "C:\\Users\\sebas\\Documentos\\GitHub\\ProyectoMusical\\ProyectoVentaMusical\\Areas\\Admin\\Controllers\\CancionesController.cs",
+              "RelativeToolTip": "ProyectoVentaMusical\\Areas\\Admin\\Controllers\\CancionesController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwKUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:18:38.139Z"
+              "WhenOpened": "2025-03-20T22:12:09.06Z",
+              "EditorCaption": ""
             }
           ]
         }

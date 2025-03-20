@@ -6,6 +6,7 @@ $(document).ready(function () {
 
 function cargarDatatable() {
     dataTable = $("#tblArtistas").DataTable({
+        "responsive": true, 
         "ajax": {
             "url": "/Admin/artistas/GetAll",
             "type": "GET",
@@ -31,8 +32,8 @@ function cargarDatatable() {
             {
                 "data": "codigoArtista",
                 "render": function (data) {
-                    return `<button href="/Admin/Artistas/Edit/${data}" class="btn btn-primary btn-sm btn-editar"><i class="fas fa-pen"></i></button>` +
-                        `<button onclick=Delete("/Admin/Artistas/Delete/${data}") class="btn btn-danger btn-sm ms-2"><i class="fas fa-trash"></i></button>`;
+                    return `<button onclick="window.location.href='/Admin/Artistas/Edit/${data}'" title="Editar" class="btn btn-success btn-sm btn-editar"><i class="fas fa-pen"></i></button>` +
+                        `<button onclick="Delete('/Admin/Artistas/Delete/${data}')" title="Eliminar" class="btn btn-danger btn-sm ms-2"><i class="fas fa-trash"></i></button>`;
                 }, "width": "25%"
             }
         ],
@@ -64,27 +65,35 @@ function cargarDatatable() {
 
 function Delete(url) {
     swal({
-        title: "Esta seguro de borrar?",
+        title: "¿Está seguro de borrar?",
         text: "Este contenido no se puede recuperar!",
         type: "warning",
         showCancelButton: true,
         confirmButtonColor: "#DD6B55",
-        confirmButtonText: "Si, borrar!",
-        closeOnconfirm: true
-    }, function () {
-        $.ajax({
-            type: 'DELETE',
-            url: url,
-            success: function (data) {
-                if (data.success) {
-                    toastr.success(data.message);
-                    dataTable.ajax.reload();
+        confirmButtonText: "Sí, borrar!",
+        cancelButtonText: "Cancelar",
+        closeOnConfirm: false
+    },
+        function () {
+            $.ajax({
+                type: 'DELETE',
+                url: url,
+                success: function (data) {
+                    console.log("Respuesta del servidor:", data);
+
+                    swal.close();
+                    if (data.success) {
+                        toastr.success(data.message);
+                        dataTable.ajax.reload();
+                    } else {
+                        toastr.error(data.message);
+                    }
+                },
+                error: function (xhr) {
+                    swal.close();
+                    toastr.error("Error en la solicitud: " + xhr.responseText);
                 }
-                else {
-                    toastr.error(data.message);
-                }
-            }
+            });
         });
-    });
 }
 

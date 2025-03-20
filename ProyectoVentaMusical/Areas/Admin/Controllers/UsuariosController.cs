@@ -114,12 +114,12 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(string id)
         {
-            var objFromDb = _context.Users.Find(id);
-            if (objFromDb == null)
+            var usuario = _context.Users.Find(id);
+            if (usuario == null)
             {
                 return Json(new { success = false, message = "Error borrando Usuario" });
             }
-            _context.Users.Remove(objFromDb);
+            _context.Users.Remove(usuario);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
             //return Json(new { success = true, message = "Usuario Borrado Correctamente" });

@@ -19,10 +19,10 @@ wwwroot\imagenes\canciones\0c2c28b7-d645-44ab-806b-79eaf40c62fe.jpg
 wwwroot\imagenes\canciones\3646ad36-5078-41d9-b75e-e0530251bf1b.jpg
 wwwroot\imagenes\canciones\5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg
 wwwroot\imagenes\canciones\630ebab8-3404-465a-b241-10214e76f034.jpg
-wwwroot\imagenes\canciones\87de116d-dc82-4227-ab78-4f19419fa866.jpg
 wwwroot\imagenes\canciones\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg
 wwwroot\imagenes\canciones\b318d35a-7343-4825-ba2d-f18fc6a10424.jpg
 wwwroot\imagenes\canciones\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg
+wwwroot\imagenes\canciones\df9388ad-fcda-4438-975e-8957d9eef6ad.jpg
 wwwroot\imagenes\generos\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg
 wwwroot\imagenes\generos\e894108a-b601-4293-9de2-8ffff3ebc4d0.jpg
 wwwroot\js\albumes.js

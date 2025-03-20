@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Models.Data;
 using Models.ViewModels;
 
@@ -161,13 +162,34 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var objFromDb = _context.Canciones.Find(id);
-            if (objFromDb == null)
+            var cancion = _context.Canciones
+                .Include(a => a.DetalleCarritos)
+                .Include(a => a.DetalleVenta)
+                .FirstOrDefault(a => a.CodigoCancion == id);
+            if (cancion == null)
             {
                 return Json(new { success = false, message = "Error borrando cancion" });
             }
 
-            _context.Canciones.Remove(objFromDb);
+            if (cancion.DetalleCarritos.Any())
+            {
+                return Json(new
+                {
+                    success = false,
+                    message = "No se puede eliminar la canción porque tiene carritos asociados."
+                });
+            }
+
+            if (cancion.DetalleVenta.Any())
+            {
+                return Json(new
+                {
+                    success = false,
+                    message = "No se puede eliminar la canción porque tiene facturas asociados."
+                });
+            }
+
+            _context.Canciones.Remove(cancion);
 
             _context.SaveChanges();
 
