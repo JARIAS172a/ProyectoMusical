@@ -31,16 +31,8 @@ function cargarDatatable() {
             {
                 "data": "codigoArtista",
                 "render": function (data) {
-                    return `<div class="text-center">
-                                <a href="/Admin/Artistas/Edit/${data}" class="btn btn-success text-white" style="cursor:pointer; width:140px;">
-                                    <i class="far fa-edit"></i> Editar
-                                </a>
-                                &nbsp;
-                                <a onclick=Delete("/Admin/Artistas/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer; width:140px;">
-                                    <i class="far fa-trash-alt"></i> Borrar
-                                </a>
-                          </div>
-                         `;
+                    return `<button href="/Admin/Artistas/Edit/${data}" class="btn btn-primary btn-sm btn-editar"><i class="fas fa-pen"></i></button>` +
+                        `<button onclick=Delete("/Admin/Artistas/Delete/${data}") class="btn btn-danger btn-sm ms-2"><i class="fas fa-trash"></i></button>`;
                 }, "width": "25%"
             }
         ],
