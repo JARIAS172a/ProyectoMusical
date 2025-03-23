@@ -1,0 +1,42 @@
+﻿@model Models.ViewModels.HistorialMostrarVM
+
+<h2>Historial de Compras</h2>
+
+@if(Model == null)
+{ 
+	<p>No tienes compras realizadas.</p>
+}
+else
+{
+	@foreach (var venta in Model.Ventas)
+	{
+		<div class="card">
+			<h4>Compra #@venta.IdVenta</h4>
+			<p>Fecha: @venta.FechaCompra?.ToString("dd/MM/yyyy")</p>
+			<p>Total: ₡@venta.Total</p>
+			<p>Método de pago: @venta.TipoPago</p>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Canción</th>
+						<th>Cantidad</th>
+						<th>Precio</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var detalle in Model.DetalleVentas.Where(dv => dv.IdVenta == venta.IdVenta))
+					{
+						<tr>
+							<td>@detalle.CodigoCancionNavigation.NombreCancion</td>
+							<td>@detalle.Cantidad</td>
+							<td>@detalle.PrecioUnitario</td>
+							<td>@detalle.Total</td>
+						</tr>
+					}					
+				</tbody>
+			</table>
+		</div>
+	}
+}

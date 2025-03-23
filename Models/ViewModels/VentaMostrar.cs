@@ -12,7 +12,7 @@ namespace Models.ViewModels
 {
     public class VentaMostrarVM
     {
-
+        
         public Ventas VENTAS { get; set; }
         public IEnumerable<DetalleVentas> DetalleVentas { get; set; }
         public IEnumerable<Canciones> ListaCanciones { get; set; }

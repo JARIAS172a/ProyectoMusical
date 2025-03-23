@@ -24,9 +24,19 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
             _userManager = userManager;
         }
 
+        
+        // Este ActionResult se utiliza para buscar canciones con la barra de busqueda del index
         [HttpGet]
         public async Task<IActionResult> Index(string objBuscar)
         {
+            var userID = _userManager.GetUserId(User);
+
+            var cantidadEnCarrito = _context.DetalleCarrito
+                .Include(dc => dc.IdCarritoNavigation)
+                .Where(dc => dc.IdCarritoNavigation.IdUsuario == userID)
+                .Sum(dc => dc.Cantidad);
+
+            ViewBag.CantidadEnCarrito = cantidadEnCarrito;
 
             var canciones = from c in _context.Canciones select c;
             if (!string.IsNullOrEmpty(objBuscar))
@@ -41,6 +51,19 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                 CarritoCompras = new CarritoCompras()
             };
             return View(viewModel);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ObtenerCantidadEnCarrito()
+        {
+            var userID = _userManager.GetUserId(User);
+
+            var cantidadEnCarrito = _context.DetalleCarrito
+                .Include(dc => dc.IdCarritoNavigation)
+                .Where(dc => dc.IdCarritoNavigation.IdUsuario == userID)
+                .Sum(dc => dc.Cantidad);
+
+            return Json(new { cantidad = cantidadEnCarrito });
         }
 
         [HttpPost]
@@ -133,13 +156,6 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
 
         }
 
-
-        //[HttpPost]
-        //public async Task<IActionResult> CarritoCompras(int opcion)
-        //{
-
-        //    return View();
-        //}
 
         [HttpGet]
         public async Task<IActionResult> Pagar()
@@ -270,7 +286,13 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                     _context.Remove(carritoCompras);
                     await _context.SaveChangesAsync();
 
-                    return Json(new { success = true, message = "Pago Procesado con Éxito" });
+                    if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                    {
+                        return Json(new { success = true, message = "Pago Procesado con Éxito" });
+                    }
+
+                    return RedirectToAction("ConfirmacionCompra", new { idVenta = ventaNueva.IdVenta });
+                    
                 }
                 catch (Exception ex)
                 {
@@ -281,6 +303,16 @@ namespace ProyectoVentaMusical.Areas.Admin.Controllers
                 }
             }
             //return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> ConfirmacionCompra(int idVenta)
+        {
+            var venta = await _context.Ventas.FindAsync(idVenta);
+            if (venta == null)
+            {
+                return NotFound("Venta no encontrada");
+            }
+            return View(venta);
         }
 
     }

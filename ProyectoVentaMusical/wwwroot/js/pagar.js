@@ -1,4 +1,35 @@
-﻿//$(document).ready(function () {
+﻿$(document).ready(function () {
+    $("#paymentForm").submit(function (event) {
+        event.preventDefault();
+
+        $.ajax({
+            url: $(this).attr("action"),
+            type: "POST",
+            data: $(this).serialize(),
+            success: function (response) {
+                if (response.success) {
+                    Swal.fire({
+                        title: "Pago Exitoso",
+                        text: response.message,
+                        icon: "success",
+                        confirmButtonText: "Ver Detalles"
+                    }).then(() => {
+                        window.location.href = "/Comprar/ConfirmacionCompra/" + response.idVenta;
+                    });
+                } else {
+                    Swal.fire("Error", response.message, "error");
+                }
+            },
+            error: function () {
+                Swal.fire("Error", "Hubo un problema al procesar el pago.", "error");
+            }
+        });
+    });
+});
+
+
+
+//$(document).ready(function () {
 //    $('#paymentType').change(function () {
 //        var selectedPaymentMethod = $(this).val();
 //        $('#creditCardInfo, #sinpeInfo, #availableMoney').hide();
@@ -29,24 +60,24 @@
     //    });
     //});
 
-$(document).ready(function () {
-    $('[name="VENTAS.TipoPago"]').on('change', function () {
-        var selectedPaymentMethod = $(this).val();
+//$(document).ready(function () {
+//    $('[name="VENTAS.TipoPago"]').on('change', function () {
+//        var selectedPaymentMethod = $(this).val();
 
-        $('#creditCardInfo, #sinpeInfo, #availableMoney')
-            .hide()
-            .find('input').prop('disabled', true);
+//        $('#creditCardInfo, #sinpeInfo, #availableMoney')
+//            .hide()
+//            .find('input').prop('disabled', true);
 
-        if (selectedPaymentMethod === 'Tarjeta de Crédito') {
-            $('#creditCardInfo').show()
-                .find('input').prop('disabled', false);
-        } else if (selectedPaymentMethod === 'Sinpe') {
-            $('#sinpeInfo').show();
-        } else if (selectedPaymentMethod === 'Dinero Disponible') {
-            $('#availableMoney').show();
-        }
-    });
-});
+//        if (selectedPaymentMethod === 'Tarjeta de Crédito') {
+//            $('#creditCardInfo').show()
+//                .find('input').prop('disabled', false);
+//        } else if (selectedPaymentMethod === 'Sinpe') {
+//            $('#sinpeInfo').show();
+//        } else if (selectedPaymentMethod === 'Dinero Disponible') {
+//            $('#availableMoney').show();
+//        }
+//    });
+//});
 
 
 

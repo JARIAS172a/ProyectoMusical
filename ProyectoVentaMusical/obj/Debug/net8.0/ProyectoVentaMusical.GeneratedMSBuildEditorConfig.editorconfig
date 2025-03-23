@@ -68,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcHJhclxDYXJyaXRvQ29tcHJhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/sebas/Documentos/GitHub/ProyectoMusical/ProyectoVentaMusical/Areas/Admin/Views/Comprar/ConfirmacionCompra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcHJhclxDb25maXJtYWNpb25Db21wcmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sebas/Documentos/GitHub/ProyectoMusical/ProyectoVentaMusical/Areas/Admin/Views/Comprar/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tcHJhclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sebas/Documentos/GitHub/ProyectoMusical/ProyectoVentaMusical/Areas/Admin/Views/Generos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2VuZXJvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sebas/Documentos/GitHub/ProyectoMusical/ProyectoVentaMusical/Areas/Admin/Views/Historial/HistorialCompras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGlzdG9yaWFsXEhpc3RvcmlhbENvbXByYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sebas/Documentos/GitHub/ProyectoMusical/ProyectoVentaMusical/Areas/Admin/Views/Usuarios/Create.cshtml]

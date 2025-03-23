@@ -36,6 +36,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\04eb6c5e-7699-427a-bf87-5517507bb933.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/albumes/04eb6c5e-7699-427a-bf87-5517507bb933.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s76nnugma7</Fingerprint>
+      <Integrity>OK59RPvw7oETv553PVvQFw2W9ftI/kmKnp2IGgOrc9c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\04eb6c5e-7699-427a-bf87-5517507bb933.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\192b3103-08f1-430d-8de0-005cb9469483.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -72,23 +90,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\22ca3eec-08b6-4cc0-afe9-5ed796e6bed4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\481a54e3-55b2-425c-ac5f-553470dc7878.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/albumes/29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png</RelativePath>
+      <RelativePath>imagenes/albumes/481a54e3-55b2-425c-ac5f-553470dc7878.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o1nia4o20u</Fingerprint>
-      <Integrity>1ODpQpEGTe3ijiOaEwQHM4MaeZElNbRlxPVBekNQNv4=</Integrity>
+      <Fingerprint>tc5qhzx9f7</Fingerprint>
+      <Integrity>nQo3YZUoAgcfwyRTMoPWqiHACdEn+p9zG5cWfYSHQxY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\29e5ec6f-3fda-49ee-88a6-7d8dce992f70.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\481a54e3-55b2-425c-ac5f-553470dc7878.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\4ea19b35-efb2-40a9-aa07-80d034df6319.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/albumes/4ea19b35-efb2-40a9-aa07-80d034df6319.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q82nk06j76</Fingerprint>
+      <Integrity>Gh9JRoWr7fA46Fufu/JxRvjQnh5x5g29krUcmrYDX3E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\4ea19b35-efb2-40a9-aa07-80d034df6319.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\5338f9da-cd41-4b94-a3db-02d12c570216.png'))">
       <SourceType>Package</SourceType>
@@ -107,6 +143,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\5338f9da-cd41-4b94-a3db-02d12c570216.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\7253162e-a453-4049-8f99-1f6d784d14d0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/albumes/7253162e-a453-4049-8f99-1f6d784d14d0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jf1g0or6tj</Fingerprint>
+      <Integrity>P/uvQJJ24C4MBBu1AjC0pxstkdNr6SxwQ/FjBkIOKHw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\7253162e-a453-4049-8f99-1f6d784d14d0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\739604a8-41bd-4427-a5c8-dcdf117064ed.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/albumes/739604a8-41bd-4427-a5c8-dcdf117064ed.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ezuagnb8c6</Fingerprint>
+      <Integrity>pshdOy3Pi6WkAyd7QvRUBN8Xv113giBsFnJ8Efvk4PE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\739604a8-41bd-4427-a5c8-dcdf117064ed.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\7acda736-a618-40df-ab0c-0a2907d89da9.jpg'))">
       <SourceType>Package</SourceType>
@@ -144,6 +216,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\9041706f-f145-405b-b6dd-1fd08a5c21c3.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\a891d149-42c1-4668-8f3f-2c6fa62d2636.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/albumes/a891d149-42c1-4668-8f3f-2c6fa62d2636.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kb34qs2gd2</Fingerprint>
+      <Integrity>MKyxv04hDeilT6Brcoz7A5F0Cx1UTd40m3QMzWKo2H0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\a891d149-42c1-4668-8f3f-2c6fa62d2636.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\ab417629-588a-4c8d-ba38-0245494f7b97.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -161,6 +251,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\ab417629-588a-4c8d-ba38-0245494f7b97.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\b4258f27-2dbd-4d84-83ef-fc3205d43679.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/albumes/b4258f27-2dbd-4d84-83ef-fc3205d43679.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pglr3j8u7n</Fingerprint>
+      <Integrity>l0ueR9ASOVmCKtEPhXMh4ZQeaOuvYa0asPeqWTvAiSg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\b4258f27-2dbd-4d84-83ef-fc3205d43679.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\d3c12832-e128-44d4-b3d0-8922b1e771eb.png'))">
       <SourceType>Package</SourceType>
@@ -180,6 +288,78 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\d3c12832-e128-44d4-b3d0-8922b1e771eb.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\f5a37e8c-8116-4fbd-9f2c-3a6d2f390cbe.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/albumes/f5a37e8c-8116-4fbd-9f2c-3a6d2f390cbe.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kc5o70ip3h</Fingerprint>
+      <Integrity>FPgOn0cpBeE1AUVhhEGsVfdmICJQeMDiDQbCoPMVz/U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\albumes\f5a37e8c-8116-4fbd-9f2c-3a6d2f390cbe.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\1491eb91-ec3a-4f85-868d-15be4198e460.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/artistas/1491eb91-ec3a-4f85-868d-15be4198e460.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pgaw8w5zt5</Fingerprint>
+      <Integrity>+ZSHA596SxAS/nKDqXs7RblsKbryfyWQOV6qKoMB9/k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\1491eb91-ec3a-4f85-868d-15be4198e460.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\1f22eaed-44a5-4d7a-baaf-dbce335752e0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/artistas/1f22eaed-44a5-4d7a-baaf-dbce335752e0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jfug6fxg4h</Fingerprint>
+      <Integrity>8Y/9LX3nF1qU4bYN0kMqfdEmtEBzF2XoOhGvO9sBvos=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\1f22eaed-44a5-4d7a-baaf-dbce335752e0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\29d93345-07f0-49b9-b8d6-a3ef26e44b3f.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/artistas/29d93345-07f0-49b9-b8d6-a3ef26e44b3f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>egwn3py8u2</Fingerprint>
+      <Integrity>8vT/aYigKEmFZbCJxq7HwaQaP9xCSHB5+rSlT74mXT0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\29d93345-07f0-49b9-b8d6-a3ef26e44b3f.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -197,6 +377,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\2cac0ce1-adae-4146-ade3-e06bdf70ddf7.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\648d8f5f-0b0d-4554-8331-f8b0418b7978.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/artistas/648d8f5f-0b0d-4554-8331-f8b0418b7978.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bu73h8j167</Fingerprint>
+      <Integrity>jXSGHWmAPdavdObOUEPW522JQBfbXaPRmuJPrZGyu2Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\648d8f5f-0b0d-4554-8331-f8b0418b7978.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\71c34c01-f5cd-4935-a6f7-8c1b141ae52a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/artistas/71c34c01-f5cd-4935-a6f7-8c1b141ae52a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e34ppibnb9</Fingerprint>
+      <Integrity>Bm5h4TUIZaX71Ku/YsaMJ1Z3AH63SX+v5Gq8t6z2p+c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\71c34c01-f5cd-4935-a6f7-8c1b141ae52a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\783d46a0-d1cb-4e5c-8f5c-84ed5deea0b5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/artistas/783d46a0-d1cb-4e5c-8f5c-84ed5deea0b5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7wuphwfxd1</Fingerprint>
+      <Integrity>p8lj93aywbdbDGnfP2dosx9ra0wYRFOP++9tSDfR/8U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\783d46a0-d1cb-4e5c-8f5c-84ed5deea0b5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\7bc2f42a-03ac-402a-bb98-6a2f877f880f.jpg'))">
       <SourceType>Package</SourceType>
@@ -216,77 +450,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\7bc2f42a-03ac-402a-bb98-6a2f877f880f.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\8876041f-e184-4005-94c8-4e35ecbe98d1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\84a95f3f-d96b-4079-9914-17f03c3d3fc2.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/artistas/8876041f-e184-4005-94c8-4e35ecbe98d1.jpg</RelativePath>
+      <RelativePath>imagenes/artistas/84a95f3f-d96b-4079-9914-17f03c3d3fc2.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5vziuqxwtg</Fingerprint>
-      <Integrity>7+OmjQ0L1PvdsJ6rX0KfQWbX+fz94oorUBC9Y1pJZ4o=</Integrity>
+      <Fingerprint>gv2hmj0id5</Fingerprint>
+      <Integrity>NFUUdzIWVTCDHy8tDv274Rz2BTHB+lej0O9c+lWlIFY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\8876041f-e184-4005-94c8-4e35ecbe98d1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\84a95f3f-d96b-4079-9914-17f03c3d3fc2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\a1a7da3a-1656-473b-a7dd-aae70abb5d99.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\a83494cc-cbc2-4745-8947-5a89f16fc41d.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/artistas/a1a7da3a-1656-473b-a7dd-aae70abb5d99.png</RelativePath>
+      <RelativePath>imagenes/artistas/a83494cc-cbc2-4745-8947-5a89f16fc41d.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o1nia4o20u</Fingerprint>
-      <Integrity>1ODpQpEGTe3ijiOaEwQHM4MaeZElNbRlxPVBekNQNv4=</Integrity>
+      <Fingerprint>4iuhurqnqk</Fingerprint>
+      <Integrity>VMH5PyjszRLrBKW3BCaDm/K3O6n6enbPzhV6T4MNhiQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\a1a7da3a-1656-473b-a7dd-aae70abb5d99.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\a83494cc-cbc2-4745-8947-5a89f16fc41d.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\a3a167a9-a57c-408d-b60c-6d87a74ccbe9.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\c2f6a069-c269-4536-af92-076ac3ea86ff.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/artistas/a3a167a9-a57c-408d-b60c-6d87a74ccbe9.jpg</RelativePath>
+      <RelativePath>imagenes/artistas/c2f6a069-c269-4536-af92-076ac3ea86ff.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rcw4tb4gbg</Fingerprint>
-      <Integrity>NfokZWkBDKmrDpB1SIUac1dX/wJ8uJe1yVCNflUQiLo=</Integrity>
+      <Fingerprint>py1m6nb2oh</Fingerprint>
+      <Integrity>j5rDCv+ttUexKiLsAcNNUHVs6DgBmpiVg96LOkoRpSs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\a3a167a9-a57c-408d-b60c-6d87a74ccbe9.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\f855cab5-7a0e-4ca9-9ee0-122da125bf9b.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ProyectoVentaMusical</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/artistas/f855cab5-7a0e-4ca9-9ee0-122da125bf9b.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l59qh1a5ly</Fingerprint>
-      <Integrity>2eW771XFCAZx9SjuPSOlxnRF82B9VsBxdsMllTX4iv4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\f855cab5-7a0e-4ca9-9ee0-122da125bf9b.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\c2f6a069-c269-4536-af92-076ac3ea86ff.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg'))">
       <SourceType>Package</SourceType>
@@ -306,6 +522,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\f9d57212-3320-403b-ad73-ec8aa8350f27.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\fdc07d89-d879-4276-83a6-b516e7c76c21.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/artistas/fdc07d89-d879-4276-83a6-b516e7c76c21.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rcw4tb4gbg</Fingerprint>
+      <Integrity>NfokZWkBDKmrDpB1SIUac1dX/wJ8uJe1yVCNflUQiLo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\artistas\fdc07d89-d879-4276-83a6-b516e7c76c21.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\00a887b1-2f11-4055-ad38-f39558fb16c5.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/canciones/00a887b1-2f11-4055-ad38-f39558fb16c5.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wv75z4nm43</Fingerprint>
+      <Integrity>1MW8Kq4Y/JuEOgpr5VLbnGXh2Tc/4gSYWkzS6BNYyB8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\00a887b1-2f11-4055-ad38-f39558fb16c5.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\0c2c28b7-d645-44ab-806b-79eaf40c62fe.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -324,59 +576,77 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\0c2c28b7-d645-44ab-806b-79eaf40c62fe.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\3646ad36-5078-41d9-b75e-e0530251bf1b.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\5d0e0cb8-6296-4428-bb9a-45a767588f14.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/canciones/3646ad36-5078-41d9-b75e-e0530251bf1b.jpg</RelativePath>
+      <RelativePath>imagenes/canciones/5d0e0cb8-6296-4428-bb9a-45a767588f14.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rcw4tb4gbg</Fingerprint>
-      <Integrity>NfokZWkBDKmrDpB1SIUac1dX/wJ8uJe1yVCNflUQiLo=</Integrity>
+      <Fingerprint>2ykrlryh4y</Fingerprint>
+      <Integrity>yoPLu3TKuO5sZ+YmwcHJ9MCS7ILBzv/m/XmHJ+J2pfw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\3646ad36-5078-41d9-b75e-e0530251bf1b.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\5d0e0cb8-6296-4428-bb9a-45a767588f14.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\5ee97573-8875-4cef-9ace-1ac7d3754905.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/canciones/5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg</RelativePath>
+      <RelativePath>imagenes/canciones/5ee97573-8875-4cef-9ace-1ac7d3754905.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ddwae0pciq</Fingerprint>
-      <Integrity>n99jMKb9ijPqBDsIhmJHCe8MV8AUnmuQn6nIqxQZovk=</Integrity>
+      <Fingerprint>wh3nnmogcz</Fingerprint>
+      <Integrity>dIA95LjgGlYpOCpozAH/71r88HTTXOn2MKHvdpxa8Y8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\5130154e-f3aa-4ba1-86d9-8d306a2fc13d.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\5ee97573-8875-4cef-9ace-1ac7d3754905.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\630ebab8-3404-465a-b241-10214e76f034.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\6abc8f80-9690-44fc-b3e0-3ea93baae3cd.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/canciones/630ebab8-3404-465a-b241-10214e76f034.jpg</RelativePath>
+      <RelativePath>imagenes/canciones/6abc8f80-9690-44fc-b3e0-3ea93baae3cd.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lc5n1iz179</Fingerprint>
-      <Integrity>1RPys22rw9JOthIwhtqCvDybbhm4ilM6ArLbTCsIF0M=</Integrity>
+      <Fingerprint>h0pmbbwgle</Fingerprint>
+      <Integrity>3+B9siwWaXeN56h0ye2xDYZDu2IUgwP3AlGspqqb5Cg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\630ebab8-3404-465a-b241-10214e76f034.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\6abc8f80-9690-44fc-b3e0-3ea93baae3cd.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\6f17cc23-4649-4cd5-a3a0-df96ae2d86ab.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/canciones/6f17cc23-4649-4cd5-a3a0-df96ae2d86ab.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6vw3148v4o</Fingerprint>
+      <Integrity>3sVy9CcpT4m2Rh2yWcGQSh9+CoefdzTjzckKLqtwpqM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\6f17cc23-4649-4cd5-a3a0-df96ae2d86ab.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg'))">
       <SourceType>Package</SourceType>
@@ -396,6 +666,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\8e333ba2-9d69-4b91-b554-fd5b4d0fe1fe.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\997235be-6618-4d07-81e3-bfa567440425.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/canciones/997235be-6618-4d07-81e3-bfa567440425.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pqgwd863u6</Fingerprint>
+      <Integrity>P3ZL3K4ki9rW2U1djt9S5QQYSnkPmvzLIWoLFCPCbWs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\997235be-6618-4d07-81e3-bfa567440425.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\a74a0318-4ad6-41e1-a767-936bdfb8c04f.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/canciones/a74a0318-4ad6-41e1-a767-936bdfb8c04f.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0d5gpefsgi</Fingerprint>
+      <Integrity>3N81qzBOO4esOqzPjFlxEotedSX8H+3OKbeMn7Q3Yfk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\a74a0318-4ad6-41e1-a767-936bdfb8c04f.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\b318d35a-7343-4825-ba2d-f18fc6a10424.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -413,6 +719,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\b318d35a-7343-4825-ba2d-f18fc6a10424.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\b9a8e312-ed56-44bc-b3eb-2cade7d5431e.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/canciones/b9a8e312-ed56-44bc-b3eb-2cade7d5431e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q82nk06j76</Fingerprint>
+      <Integrity>Gh9JRoWr7fA46Fufu/JxRvjQnh5x5g29krUcmrYDX3E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\b9a8e312-ed56-44bc-b3eb-2cade7d5431e.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg'))">
       <SourceType>Package</SourceType>
@@ -432,6 +756,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\cc5a73f9-6a26-43c1-9213-195b27f46152.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\d5de185c-1a68-4bf7-af97-0c7cb156770c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/canciones/d5de185c-1a68-4bf7-af97-0c7cb156770c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hboo1jdlji</Fingerprint>
+      <Integrity>45EA1S7GaY2vfHcir9D25pd46btISWawPZD4xI+KrMs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\d5de185c-1a68-4bf7-af97-0c7cb156770c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\df9388ad-fcda-4438-975e-8957d9eef6ad.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
@@ -450,23 +792,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\canciones\df9388ad-fcda-4438-975e-8957d9eef6ad.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\5902ab16-2905-4ded-801d-8d14025e2353.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoVentaMusical</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ProyectoVentaMusical</BasePath>
-      <RelativePath>imagenes/generos/4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg</RelativePath>
+      <RelativePath>imagenes/generos/5902ab16-2905-4ded-801d-8d14025e2353.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>boyjui6cvl</Fingerprint>
-      <Integrity>tQNZPbCXRSDd5CwdVYNio73JzLWY/n4Z3DIBVP8a87g=</Integrity>
+      <Fingerprint>3u7aiugmbm</Fingerprint>
+      <Integrity>1a8uIeXQRjSXnvbOnTbYRXf3ZF5Y9AcsBjXzXIdIhtk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\4d26b252-bbf1-4c4d-b936-cc11b62ac413.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\5902ab16-2905-4ded-801d-8d14025e2353.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\e4542e76-6125-4abf-8f07-3906439988a6.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoVentaMusical</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoVentaMusical</BasePath>
+      <RelativePath>imagenes/generos/e4542e76-6125-4abf-8f07-3906439988a6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4tzwlwh66p</Fingerprint>
+      <Integrity>uD2q8iFI9tyG3FV+60O75z7euiQIP3BiGGINo7Mrq8k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\e4542e76-6125-4abf-8f07-3906439988a6.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\generos\e894108a-b601-4293-9de2-8ffff3ebc4d0.jpg'))">
       <SourceType>Package</SourceType>
@@ -588,8 +948,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u9lb6ntxv6</Fingerprint>
-      <Integrity>ctJI3eOC1kBBjRPXULqA4BqGj4Xx1Qnzv4Qw5KEEBec=</Integrity>
+      <Fingerprint>q995h9mohx</Fingerprint>
+      <Integrity>LpONMgj+rydmedEOAFiArQCcC7u9YqMekSjqxIJDveI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\pagar.js'))</OriginalItemSpec>
@@ -624,8 +984,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b41p79tjqh</Fingerprint>
-      <Integrity>FXOZPGMm36aoMPTGk7FFURlPJjvdYLZWGzQzy13cU/s=</Integrity>
+      <Fingerprint>kl3y9a38j6</Fingerprint>
+      <Integrity>uIdj8PtcCXMpdhMsfiPQwk4CDpuEDCZY9+6QYd/QPD8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\usuario.js'))</OriginalItemSpec>
